@@ -1,0 +1,72 @@
+Source: messagelib
+Section: libs
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 2.8.12~),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 5.19.0~),
+               libkf5akonadi-dev (>= 5.2.40~),
+               libkf5archive-dev (>= 5.19.0~),
+               libkf5i18n-dev (>= 5.19.0~),
+               libkf5iconthemes-dev (>= 5.19.0~),
+               libkf5identitymanagement-dev (>= 5.2.40~),
+               libkf5mailtransport-dev (>= 5.2.40~),
+               libkf5mime-dev (>= 5.2.40~),
+               libkf5newstuff-dev (>= 5.19.0~),
+               libkf5pimtextedit-dev (>= 5.2.40~),
+               libkf5windowsystem-dev (>= 5.19.0~),
+               libqt5webkit5-dev (>= 5.4.0~),
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.4.0~)
+Standards-Version: 3.9.8
+Homepage: http://pim.kde.org/
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/messagelib.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/messagelib.git
+
+Package: libkf5ksieve5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Sieve mail filtering language support for kdepim, library
+ This library implements a parser and lexer for Sieve, the mail filtering
+ language (RFC 3028).
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5kmanagesieve5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Sieve remote script management support for kdepim, library
+ This library implements a subset of the protocol for remotely managing Sieve
+ scripts (RFC 5804). Among other basic operations, it provides an easy to use
+ API for listing, retrieving, deleting, activating and uploading of scripts to
+ the remote Sieve script server.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5ksieveui5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libksieveui5
+Replaces: libksieveui5
+Description: Sieve mail filtering language support for kdepim, GUI library
+ This library implements GUI dialogs and elements which enable users to easily
+ create, edit and manage their mail filters on the mail servers which support
+ the Sieve language (RFC 3028) and the protocol for remotely managing Sieve
+ scripts (RFC 5804).
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5ksieve-dev
+Section: libsdevel
+Architecture: any
+Depends: libkf5kmanagesieve5 (= ${binary:Version}),
+         libkf5ksieve5 (= ${binary:Version}),
+         libkf5ksieveui5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Sieve mail filtering language support for kdepim, development files
+ This library implements a parser and lexer for Sieve, the mail filtering
+ language (RFC 3028).
+ .
+ This package is part of the KDE PIM module.
