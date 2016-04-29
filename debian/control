@@ -50,6 +50,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/messagelib.git
 
 Package: kf5-messagelib-data
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Description: KDE PIM messaging library, data files
  This package contains the data files shipped with the message libraries.
