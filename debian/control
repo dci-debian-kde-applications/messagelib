@@ -59,7 +59,9 @@ Description: KDE PIM messaging library, data files
 Package: libkf5messagecomposer5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kf5-messagelib-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: KDE PIM messaging library, composer library
  This package contains the message composer library. It provides basic e-mail
  message composing facilities.
@@ -82,7 +84,9 @@ Description: KDE PIM messaging library, composer devel files
 Package: libkf5messagecore5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kf5-messagelib-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: KDE PIM messaging library, core library
  This package contains the message core library. It provides basic e-mail
  message handling facilities.
@@ -105,7 +109,9 @@ Description: KDE PIM messaging library, core devel files
 Package: libkf5messagelist5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kf5-messagelib-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Breaks: libmessagelist5
 Replaces: libmessagelist5
 Description: KDE PIM messaging library, message list library
@@ -131,7 +137,9 @@ Description: KDE PIM messaging library, message list devel files
 Package: libkf5messageviewer5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kf5-messagelib-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Breaks: libmessageviewer5
 Replaces: libmessageviewer5
 Description: KDE PIM messaging library, message viewer library
@@ -157,7 +165,9 @@ Description: KDE PIM messaging library, message viewer devel files
 Package: libkf5templateparser5
 Section: libs
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kf5-messagelib-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: KMail template parser library
  This library implements a parser for the mail templates which KMail uses to
  enable customization of initial structure for the new, reply or forwarded
