@@ -1,5 +1,8 @@
-# SymbolsHelper-Confirmed: 4:15.12 amd64
+# SymbolsHelper-Confirmed: 4:16.04.0 amd64
 libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
+ _ZN11KIconEngineD0Ev@Base 4:16.04.0
+ _ZN11KIconEngineD1Ev@Base 4:16.04.0
+ _ZN11KIconEngineD2Ev@Base 4:16.04.0
  _ZN11MessageList12StorageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN11MessageList12StorageModel11qt_metacastEPKc@Base 4:15.12
  _ZN11MessageList12StorageModel14prepareForScanEv@Base 4:15.12
@@ -99,29 +102,49 @@ libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
  _ZN11MessageList4Core15QuickSearchLine11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLine11qt_metacastEPKc@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLine11resetFilterEv@Base 4:15.12
- _ZN11MessageList4Core15QuickSearchLine12slotSearchByEv@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLine16focusQuickSearchERK7QString@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLine16staticMetaObjectE@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLine18clearButtonClickedEv@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLine19searchOptionChangedEv@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLine20searchEditTextEditedERK7QString@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLine20statusButtonsClickedEv@Base 4:15.12
- _ZN11MessageList4Core15QuickSearchLine21slotLockSearchClickedEb@Base 4:15.12
- _ZN11MessageList4Core15QuickSearchLine21slotMoreOptionClickedEb@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLine22slotClearButtonClickedEv@Base 4:15.12
- _ZN11MessageList4Core15QuickSearchLine23createQuickSearchButtonERK5QIconRK7QStringiP7QLayout@Base 4:15.12
- _ZN11MessageList4Core15QuickSearchLine23slotSearchOptionChangedEv@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLine24slotSearchEditTextEditedERK7QString@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLine24updateComboboxVisibilityEv@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLine27changeQuicksearchVisibilityEb@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLine27setContainsOutboundMessagesEb@Base 4:15.12
- _ZN11MessageList4Core15QuickSearchLine28initializeStatusSearchButtonEP7QLayout@Base 4:15.12
- _ZN11MessageList4Core15QuickSearchLine31changeSearchAgainstFromOrToTextEv@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLineC1EP7QWidget@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLineC2EP7QWidget@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLineD0Ev@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLineD1Ev@Base 4:15.12
  _ZN11MessageList4Core15QuickSearchLineD2Ev@Base 4:15.12
+ _ZN11MessageList4Core16SearchLineStatus11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus11qt_metacastEPKc@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus13updateFiltersEv@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus16createMenuSearchEv@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus16staticMetaObjectE@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus16updateLockActionEv@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus17clearFilterActionEv@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus17initializeActionsEv@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus18createFilterActionERK5QIconRK7QStringi@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus19clearFilterByActionEv@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus19filterActionChangedERK5QListIN7Akonadi13MessageStatusEE@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus19searchOptionChangedEv@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus20createFilterByActionEv@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus21slotToggledLockActionEv@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus22updateFilterActionIconEv@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus23slotFilterActionClickedEP7QAction@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus23slotSearchOptionChangedEv@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus24clearFilterButtonClickedEv@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus27setContainsOutboundMessagesEb@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus31changeSearchAgainstFromOrToTextEv@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus8showMenuEv@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatus9setLockedEb@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatusC1EP7QWidget@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatusC2EP7QWidget@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatusD0Ev@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatusD1Ev@Base 4:16.04.0
+ _ZN11MessageList4Core16SearchLineStatusD2Ev@Base 4:16.04.0
  _ZN11MessageList4Core18QuickSearchWarning11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN11MessageList4Core18QuickSearchWarning11qt_metacastEPKc@Base 4:15.12
  _ZN11MessageList4Core18QuickSearchWarning13setSearchTextERK7QString@Base 4:15.12
@@ -351,13 +374,16 @@ libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
  _ZNK11MessageList4Core11MessageItem7tagListEv@Base 4:15.12
  _ZNK11MessageList4Core11MessageItem8uniqueIdEv@Base 4:15.12
  _ZNK11MessageList4Core11MessageItem9textColorEv@Base 4:15.12
- _ZNK11MessageList4Core15QuickSearchLine10lockSearchEv@Base 4:15.12
  _ZNK11MessageList4Core15QuickSearchLine10metaObjectEv@Base 4:15.12
  _ZNK11MessageList4Core15QuickSearchLine10searchEditEv@Base 4:15.12
  _ZNK11MessageList4Core15QuickSearchLine13searchOptionsEv@Base 4:15.12
  _ZNK11MessageList4Core15QuickSearchLine17tagFilterComboBoxEv@Base 4:15.12
  _ZNK11MessageList4Core15QuickSearchLine24containsOutboundMessagesEv@Base 4:15.12
  _ZNK11MessageList4Core15QuickSearchLine6statusEv@Base 4:15.12
+ _ZNK11MessageList4Core16SearchLineStatus10metaObjectEv@Base 4:16.04.0
+ _ZNK11MessageList4Core16SearchLineStatus13searchOptionsEv@Base 4:16.04.0
+ _ZNK11MessageList4Core16SearchLineStatus24containsOutboundMessagesEv@Base 4:16.04.0
+ _ZNK11MessageList4Core16SearchLineStatus6lockedEv@Base 4:16.04.0
  _ZNK11MessageList4Core18QuickSearchWarning10metaObjectEv@Base 4:15.12
  _ZNK11MessageList4Core4Item10childItemsEv@Base 4:15.12
  _ZNK11MessageList4Core4Item10isViewableEv@Base 4:15.12
@@ -439,10 +465,12 @@ libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readEntryIyEET_PKcRKS1_@Base 4:15.12
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN5KMime7MessageEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES9_E4typeEv@Base 4:15.12
  (optional=templinst)_ZNK7Akonadi4Item14tryToCloneImplI14QSharedPointerIN5KMime7MessageEESt10shared_ptrIS4_EEENSt9enable_ifIXntsrSt7is_sameIT_T0_E5valueEbE4typeEPSA_PKi@Base 4:15.12
+ _ZTI11KIconEngine@Base 4:16.04.0
  _ZTIN11MessageList12StorageModelE@Base 4:15.12
  _ZTIN11MessageList19MessageListSettingsE@Base 4:15.12
  _ZTIN11MessageList4Core11MessageItemE@Base 4:15.12
  _ZTIN11MessageList4Core15QuickSearchLineE@Base 4:15.12
+ _ZTIN11MessageList4Core16SearchLineStatusE@Base 4:16.04.0
  _ZTIN11MessageList4Core18QuickSearchWarningE@Base 4:15.12
  _ZTIN11MessageList4Core4ItemE@Base 4:15.12
  _ZTIN11MessageList4PaneE@Base 4:15.12
@@ -451,10 +479,12 @@ libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
  _ZTIN11MessageList5Utils19AggregationComboBoxE@Base 4:15.12
  _ZTIN11MessageList5Utils23AggregationConfigButtonE@Base 4:15.12
  _ZTIN11MessageList6WidgetE@Base 4:15.12
+ _ZTS11KIconEngine@Base 4:16.04.0
  _ZTSN11MessageList12StorageModelE@Base 4:15.12
  _ZTSN11MessageList19MessageListSettingsE@Base 4:15.12
  _ZTSN11MessageList4Core11MessageItemE@Base 4:15.12
  _ZTSN11MessageList4Core15QuickSearchLineE@Base 4:15.12
+ _ZTSN11MessageList4Core16SearchLineStatusE@Base 4:16.04.0
  _ZTSN11MessageList4Core18QuickSearchWarningE@Base 4:15.12
  _ZTSN11MessageList4Core4ItemE@Base 4:15.12
  _ZTSN11MessageList4PaneE@Base 4:15.12
@@ -463,10 +493,12 @@ libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
  _ZTSN11MessageList5Utils19AggregationComboBoxE@Base 4:15.12
  _ZTSN11MessageList5Utils23AggregationConfigButtonE@Base 4:15.12
  _ZTSN11MessageList6WidgetE@Base 4:15.12
+ _ZTV11KIconEngine@Base 4:16.04.0
  _ZTVN11MessageList12StorageModelE@Base 4:15.12
  _ZTVN11MessageList19MessageListSettingsE@Base 4:15.12
  _ZTVN11MessageList4Core11MessageItemE@Base 4:15.12
  _ZTVN11MessageList4Core15QuickSearchLineE@Base 4:15.12
+ _ZTVN11MessageList4Core16SearchLineStatusE@Base 4:16.04.0
  _ZTVN11MessageList4Core18QuickSearchWarningE@Base 4:15.12
  _ZTVN11MessageList4Core4ItemE@Base 4:15.12
  _ZTVN11MessageList4PaneE@Base 4:15.12
@@ -478,6 +510,7 @@ libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
  (c++)"non-virtual thunk to MessageList::Core::MessageItem::~MessageItem()@Base" 4:15.12
  (c++)"non-virtual thunk to MessageList::Core::QuickSearchLine::~QuickSearchLine()@Base" 4:15.12
  (c++)"non-virtual thunk to MessageList::Core::QuickSearchWarning::~QuickSearchWarning()@Base" 4:15.12
+ (c++)"non-virtual thunk to MessageList::Core::SearchLineStatus::~SearchLineStatus()@Base" 4:16.04.0
  (c++)"non-virtual thunk to MessageList::Pane::~Pane()@Base" 4:15.12
  (c++)"non-virtual thunk to MessageList::Utils::AggregationComboBox::~AggregationComboBox()@Base" 4:15.12
  (c++)"non-virtual thunk to MessageList::Utils::AggregationConfigButton::~AggregationConfigButton()@Base" 4:15.12

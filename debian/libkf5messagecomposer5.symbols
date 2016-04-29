@@ -1,7 +1,11 @@
-# SymbolsHelper-Confirmed: 4:15.12 amd64
+# SymbolsHelper-Confirmed: 4:16.04.0 amd64
 libKF5MessageComposer.so.5 libkf5messagecomposer5 #MINVER#
  _ZN13MessageHelper10initHeaderERK14QSharedPointerIN5KMime7MessageEEPKN19KIdentityManagement15IdentityManagerEj@Base 4:15.12
  _ZN13MessageHelper16extractAddrSpecsERK14QSharedPointerIN5KMime7MessageEERK10QByteArray@Base 4:15.12
+ _ZN15MessageComposer10ActionTypeC1EP7QActionNS0_4TypeE@Base 4:16.04.0
+ _ZN15MessageComposer10ActionTypeC1Ev@Base 4:16.04.0
+ _ZN15MessageComposer10ActionTypeC2EP7QActionNS0_4TypeE@Base 4:16.04.0
+ _ZN15MessageComposer10ActionTypeC2Ev@Base 4:16.04.0
  _ZN15MessageComposer10EncryptJob10setContentEPN5KMime7ContentE@Base 4:15.12
  _ZN15MessageComposer10EncryptJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN15MessageComposer10EncryptJob11qt_metacastEPKc@Base 4:15.12
@@ -67,6 +71,15 @@ libKF5MessageComposer.so.5 libkf5messagecomposer5 #MINVER#
  _ZN15MessageComposer12MultipartJobD0Ev@Base 4:15.12
  _ZN15MessageComposer12MultipartJobD1Ev@Base 4:15.12
  _ZN15MessageComposer12MultipartJobD2Ev@Base 4:15.12
+ _ZN15MessageComposer12PluginEditor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04.0
+ _ZN15MessageComposer12PluginEditor11qt_metacastEPKc@Base 4:16.04.0
+ _ZN15MessageComposer12PluginEditor16staticMetaObjectE@Base 4:16.04.0
+ _ZN15MessageComposer12PluginEditor8setOrderEi@Base 4:16.04.0
+ _ZN15MessageComposer12PluginEditorC1EP7QObject@Base 4:16.04.0
+ _ZN15MessageComposer12PluginEditorC2EP7QObject@Base 4:16.04.0
+ _ZN15MessageComposer12PluginEditorD0Ev@Base 4:16.04.0
+ _ZN15MessageComposer12PluginEditorD1Ev@Base 4:16.04.0
+ _ZN15MessageComposer12PluginEditorD2Ev@Base 4:16.04.0
  _ZN15MessageComposer13AkonadiSender11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN15MessageComposer13AkonadiSender11qt_metacastEPKc@Base 4:15.12
  _ZN15MessageComposer13AkonadiSender12doSendQueuedEi@Base 4:15.12
@@ -388,6 +401,15 @@ libKF5MessageComposer.so.5 libkf5messagecomposer5 #MINVER#
  _ZN15MessageComposer18SkeletonMessageJobD0Ev@Base 4:15.12
  _ZN15MessageComposer18SkeletonMessageJobD1Ev@Base 4:15.12
  _ZN15MessageComposer18SkeletonMessageJobD2Ev@Base 4:15.12
+ _ZN15MessageComposer19PluginEditorManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04.0
+ _ZN15MessageComposer19PluginEditorManager11qt_metacastEPKc@Base 4:16.04.0
+ _ZN15MessageComposer19PluginEditorManager16staticMetaObjectE@Base 4:16.04.0
+ _ZN15MessageComposer19PluginEditorManager4selfEv@Base 4:16.04.0
+ _ZN15MessageComposer19PluginEditorManagerC1EP7QObject@Base 4:16.04.0
+ _ZN15MessageComposer19PluginEditorManagerC2EP7QObject@Base 4:16.04.0
+ _ZN15MessageComposer19PluginEditorManagerD0Ev@Base 4:16.04.0
+ _ZN15MessageComposer19PluginEditorManagerD1Ev@Base 4:16.04.0
+ _ZN15MessageComposer19PluginEditorManagerD2Ev@Base 4:16.04.0
  _ZN15MessageComposer19SignatureController10cleanSpaceEv@Base 4:15.12
  _ZN15MessageComposer19SignatureController10enableHtmlEv@Base 4:15.12
  _ZN15MessageComposer19SignatureController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
@@ -417,6 +439,20 @@ libKF5MessageComposer.so.5 libkf5messagecomposer5 #MINVER#
  _ZN15MessageComposer20RecipientLineFactory7newLineEP7QWidget@Base 4:15.12
  _ZN15MessageComposer20RecipientLineFactoryC1EP7QObject@Base 4:15.12
  _ZN15MessageComposer20RecipientLineFactoryC2EP7QObject@Base 4:15.12
+ _ZN15MessageComposer21PluginEditorInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.04.0
+ _ZN15MessageComposer21PluginEditorInterface11qt_metacastEPKc@Base 4:16.04.0
+ _ZN15MessageComposer21PluginEditorInterface13setActionTypeERKNS_10ActionTypeE@Base 4:16.04.0
+ _ZN15MessageComposer21PluginEditorInterface15setParentWidgetEP7QWidget@Base 4:16.04.0
+ _ZN15MessageComposer21PluginEditorInterface16staticMetaObjectE@Base 4:16.04.0
+ _ZN15MessageComposer21PluginEditorInterface17setRichTextEditorEPN12KPIMTextEdit14RichTextEditorE@Base 4:16.04.0
+ _ZN15MessageComposer21PluginEditorInterface18actionXmlExtensionENS_10ActionType4TypeE@Base 4:16.04.0
+ _ZN15MessageComposer21PluginEditorInterface19emitPluginActivatedEPS0_@Base 4:16.04.0
+ _ZN15MessageComposer21PluginEditorInterface19showConfigureDialogEP7QWidget@Base 4:16.04.0
+ _ZN15MessageComposer21PluginEditorInterfaceC1EP7QObject@Base 4:16.04.0
+ _ZN15MessageComposer21PluginEditorInterfaceC2EP7QObject@Base 4:16.04.0
+ _ZN15MessageComposer21PluginEditorInterfaceD0Ev@Base 4:16.04.0
+ _ZN15MessageComposer21PluginEditorInterfaceD1Ev@Base 4:16.04.0
+ _ZN15MessageComposer21PluginEditorInterfaceD2Ev@Base 4:16.04.0
  _ZN15MessageComposer22EmailAddressResolveJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN15MessageComposer22EmailAddressResolveJob11qt_metacastEPKc@Base 4:15.12
  _ZN15MessageComposer22EmailAddressResolveJob16staticMetaObjectE@Base 4:15.12
@@ -660,6 +696,8 @@ libKF5MessageComposer.so.5 libkf5messagecomposer5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.12
+ _ZNK15MessageComposer10ActionType4typeEv@Base 4:16.04.0
+ _ZNK15MessageComposer10ActionType6actionEv@Base 4:16.04.0
  _ZNK15MessageComposer10EncryptJob10metaObjectEv@Base 4:15.12
  _ZNK15MessageComposer10EncryptJob10recipientsEv@Base 4:15.12
  _ZNK15MessageComposer10EncryptJob14encryptionKeysEv@Base 4:15.12
@@ -677,6 +715,8 @@ libKF5MessageComposer.so.5 libkf5messagecomposer5 #MINVER#
  _ZNK15MessageComposer12ImageScaling8mimetypeEv@Base 4:15.12
  _ZNK15MessageComposer12MultipartJob10metaObjectEv@Base 4:15.12
  _ZNK15MessageComposer12MultipartJob16multipartSubtypeEv@Base 4:15.12
+ _ZNK15MessageComposer12PluginEditor10metaObjectEv@Base 4:16.04.0
+ _ZNK15MessageComposer12PluginEditor5orderEv@Base 4:16.04.0
  _ZNK15MessageComposer13AkonadiSender10metaObjectEv@Base 4:15.12
  _ZNK15MessageComposer13AttachmentJob10metaObjectEv@Base 4:15.12
  _ZNK15MessageComposer13AttachmentJob14attachmentPartEv@Base 4:15.12
@@ -745,8 +785,17 @@ libKF5MessageComposer.so.5 libkf5messagecomposer5 #MINVER#
  _ZNK15MessageComposer18SkeletonMessageJob10metaObjectEv@Base 4:15.12
  _ZNK15MessageComposer18SkeletonMessageJob7messageEv@Base 4:15.12
  _ZNK15MessageComposer18SkeletonMessageJob8infoPartEv@Base 4:15.12
+ _ZNK15MessageComposer19PluginEditorManager10metaObjectEv@Base 4:16.04.0
+ _ZNK15MessageComposer19PluginEditorManager11pluginsListEv@Base 4:16.04.0
  _ZNK15MessageComposer19SignatureController10metaObjectEv@Base 4:15.12
  _ZNK15MessageComposer20RecipientLineFactory10metaObjectEv@Base 4:15.12
+ _ZNK15MessageComposer21PluginEditorInterface10actionTypeEv@Base 4:16.04.0
+ _ZNK15MessageComposer21PluginEditorInterface10metaObjectEv@Base 4:16.04.0
+ _ZNK15MessageComposer21PluginEditorInterface12parentWidgetEv@Base 4:16.04.0
+ _ZNK15MessageComposer21PluginEditorInterface14richTextEditorEv@Base 4:16.04.0
+ _ZNK15MessageComposer21PluginEditorInterface17hasToolBarSupportEv@Base 4:16.04.0
+ _ZNK15MessageComposer21PluginEditorInterface18hasConfigureDialogEv@Base 4:16.04.0
+ _ZNK15MessageComposer21PluginEditorInterface19hasPopupMenuSupportEv@Base 4:16.04.0
  _ZNK15MessageComposer22EmailAddressResolveJob10expandedCcEv@Base 4:15.12
  _ZNK15MessageComposer22EmailAddressResolveJob10expandedToEv@Base 4:15.12
  _ZNK15MessageComposer22EmailAddressResolveJob10metaObjectEv@Base 4:15.12
@@ -833,6 +882,7 @@ libKF5MessageComposer.so.5 libkf5messagecomposer5 #MINVER#
  _ZTIN15MessageComposer11MainTextJobE@Base 4:15.12
  _ZTIN15MessageComposer11MessagePartE@Base 4:15.12
  _ZTIN15MessageComposer12MultipartJobE@Base 4:15.12
+ _ZTIN15MessageComposer12PluginEditorE@Base 4:16.04.0
  _ZTIN15MessageComposer13AkonadiSenderE@Base 4:15.12
  _ZTIN15MessageComposer13AttachmentJobE@Base 4:15.12
  _ZTIN15MessageComposer13SinglepartJobE@Base 4:15.12
@@ -849,8 +899,10 @@ libKF5MessageComposer.so.5 libkf5messagecomposer5 #MINVER#
  _ZTIN15MessageComposer18ImageScalingWidgetE@Base 4:15.12
  _ZTIN15MessageComposer18RichTextComposerNgE@Base 4:15.12
  _ZTIN15MessageComposer18SkeletonMessageJobE@Base 4:15.12
+ _ZTIN15MessageComposer19PluginEditorManagerE@Base 4:16.04.0
  _ZTIN15MessageComposer19SignatureControllerE@Base 4:15.12
  _ZTIN15MessageComposer20RecipientLineFactoryE@Base 4:15.12
+ _ZTIN15MessageComposer21PluginEditorInterfaceE@Base 4:16.04.0
  _ZTIN15MessageComposer22EmailAddressResolveJobE@Base 4:15.12
  _ZTIN15MessageComposer23MessageComposerSettingsE@Base 4:15.12
  _ZTIN15MessageComposer24AttachmentControllerBaseE@Base 4:15.12
@@ -872,6 +924,7 @@ libKF5MessageComposer.so.5 libkf5messagecomposer5 #MINVER#
  _ZTSN15MessageComposer11MainTextJobE@Base 4:15.12
  _ZTSN15MessageComposer11MessagePartE@Base 4:15.12
  _ZTSN15MessageComposer12MultipartJobE@Base 4:15.12
+ _ZTSN15MessageComposer12PluginEditorE@Base 4:16.04.0
  _ZTSN15MessageComposer13AkonadiSenderE@Base 4:15.12
  _ZTSN15MessageComposer13AttachmentJobE@Base 4:15.12
  _ZTSN15MessageComposer13SinglepartJobE@Base 4:15.12
@@ -888,8 +941,10 @@ libKF5MessageComposer.so.5 libkf5messagecomposer5 #MINVER#
  _ZTSN15MessageComposer18ImageScalingWidgetE@Base 4:15.12
  _ZTSN15MessageComposer18RichTextComposerNgE@Base 4:15.12
  _ZTSN15MessageComposer18SkeletonMessageJobE@Base 4:15.12
+ _ZTSN15MessageComposer19PluginEditorManagerE@Base 4:16.04.0
  _ZTSN15MessageComposer19SignatureControllerE@Base 4:15.12
  _ZTSN15MessageComposer20RecipientLineFactoryE@Base 4:15.12
+ _ZTSN15MessageComposer21PluginEditorInterfaceE@Base 4:16.04.0
  _ZTSN15MessageComposer22EmailAddressResolveJobE@Base 4:15.12
  _ZTSN15MessageComposer23MessageComposerSettingsE@Base 4:15.12
  _ZTSN15MessageComposer24AttachmentControllerBaseE@Base 4:15.12
@@ -911,6 +966,7 @@ libKF5MessageComposer.so.5 libkf5messagecomposer5 #MINVER#
  _ZTVN15MessageComposer11MainTextJobE@Base 4:15.12
  _ZTVN15MessageComposer11MessagePartE@Base 4:15.12
  _ZTVN15MessageComposer12MultipartJobE@Base 4:15.12
+ _ZTVN15MessageComposer12PluginEditorE@Base 4:16.04.0
  _ZTVN15MessageComposer13AkonadiSenderE@Base 4:15.12
  _ZTVN15MessageComposer13AttachmentJobE@Base 4:15.12
  _ZTVN15MessageComposer13SinglepartJobE@Base 4:15.12
@@ -927,8 +983,10 @@ libKF5MessageComposer.so.5 libkf5messagecomposer5 #MINVER#
  _ZTVN15MessageComposer18ImageScalingWidgetE@Base 4:15.12
  _ZTVN15MessageComposer18RichTextComposerNgE@Base 4:15.12
  _ZTVN15MessageComposer18SkeletonMessageJobE@Base 4:15.12
+ _ZTVN15MessageComposer19PluginEditorManagerE@Base 4:16.04.0
  _ZTVN15MessageComposer19SignatureControllerE@Base 4:15.12
  _ZTVN15MessageComposer20RecipientLineFactoryE@Base 4:15.12
+ _ZTVN15MessageComposer21PluginEditorInterfaceE@Base 4:16.04.0
  _ZTVN15MessageComposer22EmailAddressResolveJobE@Base 4:15.12
  _ZTVN15MessageComposer23MessageComposerSettingsE@Base 4:15.12
  _ZTVN15MessageComposer24AttachmentControllerBaseE@Base 4:15.12
