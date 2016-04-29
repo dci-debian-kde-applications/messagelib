@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    16.04.0
+</version>
+
+<headers>
+    /usr/include/KF5/MessageCore/
+    /usr/include/KF5/messagecore/
+    /usr/include/KF5/messagecore_version.h
+</headers>
+
+<libs>
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5MessageCore.so
+</libs>
+
+<gcc_options>
+    -fPIC
+    -std=c++11
+</gcc_options>
+
+</descriptor>

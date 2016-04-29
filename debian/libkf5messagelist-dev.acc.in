@@ -2,16 +2,17 @@
 <descriptor>
 
 <version>
-    16.03.90
+    16.04.0
 </version>
 
 <headers>
+    /usr/include/KF5/MessageList/
+    /usr/include/KF5/messagelist/
+    /usr/include/KF5/messagelist_version.h
 </headers>
 
 <libs>
-    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5KSieve.so
-    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5KSieveUi.so
-    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5KManageSieve.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5MessageList.so
 </libs>
 
 <gcc_options>

@@ -1,4 +1,4 @@
-Source: messagelib
+Source: kf5-messagelib
 Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -48,49 +48,134 @@ Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/messagelib.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/messagelib.git
 
-Package: libkf5ksieve5
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Sieve mail filtering language support for kdepim, library
- This library implements a parser and lexer for Sieve, the mail filtering
- language (RFC 3028).
+Package: kf5-messagelib-data
+Architecture: all
+Depends: ${misc:Depends}
+Description: KDE PIM messaging library, data files
+ This package contains the data files shipped with the message libraries.
  .
- This package is part of the KDE PIM module.
+ This package is part of KDE PIM module.
 
-Package: libkf5kmanagesieve5
+Package: libkf5messagecomposer5
 Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Sieve remote script management support for kdepim, library
- This library implements a subset of the protocol for remotely managing Sieve
- scripts (RFC 5804). Among other basic operations, it provides an easy to use
- API for listing, retrieving, deleting, activating and uploading of scripts to
- the remote Sieve script server.
+Description: KDE PIM messaging library, composer library
+ This package contains the message composer library. It provides basic e-mail
+ message composing facilities.
  .
- This package is part of the KDE PIM module.
+ This package is part of KDE PIM module.
 
-Package: libkf5ksieveui5
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libksieveui5
-Replaces: libksieveui5
-Description: Sieve mail filtering language support for kdepim, GUI library
- This library implements GUI dialogs and elements which enable users to easily
- create, edit and manage their mail filters on the mail servers which support
- the Sieve language (RFC 3028) and the protocol for remotely managing Sieve
- scripts (RFC 5804).
- .
- This package is part of the KDE PIM module.
-
-Package: libkf5ksieve-dev
+Package: libkf5messagecomposer-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5kmanagesieve5 (= ${binary:Version}),
-         libkf5ksieve5 (= ${binary:Version}),
-         libkf5ksieveui5 (= ${binary:Version}),
+Multi-Arch: same
+Depends: libkf5messagecomposer5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Sieve mail filtering language support for kdepim, development files
- This library implements a parser and lexer for Sieve, the mail filtering
- language (RFC 3028).
+Description: KDE PIM messaging library, composer devel files
+ This package contains the development files for the message composer library.
+ Which provides basic e-mail message composing facilities.
+ .
+ This package is part of KDE PIM module.
+
+Package: libkf5messagecore5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KDE PIM messaging library, core library
+ This package contains the message core library. It provides basic e-mail
+ message handling facilities.
+ .
+ This package is part the KDE PIM module.
+
+Package: libkf5messagecore-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libkf5messagecore5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: KDE PIM messaging library, core devel files
+ This package contains the development files for the message core library.
+ Which provides basic e-mail message handling facilities.
+ .
+ This package is part of KDE PIM module.
+
+Package: libkf5messagelist5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libmessagelist5
+Replaces: libmessagelist5
+Description: KDE PIM messaging library, message list library
+ This package contains the message list library. It provides a widget for the
+ e-mail message lists with extensive filtering, grouping and useful features.
  .
  This package is part of the KDE PIM module.
+
+Package: libkf5messagelist-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libkf5messagelist5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: KDE PIM messaging library, message list devel files
+ This package contains the development files for the message list library.
+ Which provides a widget for the e-mail message lists with extensive filtering,
+ grouping and useful features.
+ .
+ This package is part of KDE PIM module.
+
+Package: libkf5messageviewer5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libmessageviewer5
+Replaces: libmessageviewer5
+Description: KDE PIM messaging library, message viewer library
+ This package contains the message viewer library which implements feature-rich
+ and highly configurable widget for viewing e-mail messages.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5messageviewer-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libkf5messageviewer5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: KDE PIM messaging library, message viewer devel files
+ This package contains the development files for the message viewer library.
+ Which provides the implementation of a feature-rich and highly configurable
+ widget for viewing e-mail messages.
+ .
+ This package is part of KDE PIM module.
+
+Package: libkf5templateparser5
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KMail template parser library
+ This library implements a parser for the mail templates which KMail uses to
+ enable customization of initial structure for the new, reply or forwarded
+ messages.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5templateparser-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libkf5templateparser5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: KDE PIM messaging library, template parser devel files
+ This package contains the development files for the template parser library.
+ Which provides the implementation of a parser for the mail templates which
+ KMail uses to enable customization of initial structure for the new, reply or
+ forwarded messages.
+ .
+ This package is part of KDE PIM module.
