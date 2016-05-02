@@ -73,7 +73,8 @@ Package: libkf5messagecomposer-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5messagecomposer5 (= ${binary:Version}),
+Depends: libkf5identitymanagement-dev (>= 5.2.40~),
+         libkf5messagecomposer5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE PIM messaging library, composer devel files
