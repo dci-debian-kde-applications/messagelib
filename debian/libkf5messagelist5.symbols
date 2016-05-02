@@ -1,8 +1,8 @@
-# SymbolsHelper-Confirmed: 4:16.04.0 amd64
+# SymbolsHelper-Confirmed: 4:16.04.0 amd64 armhf i386
 libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
- _ZN11KIconEngineD0Ev@Base 4:16.04.0
- _ZN11KIconEngineD1Ev@Base 4:16.04.0
- _ZN11KIconEngineD2Ev@Base 4:16.04.0
+ (arch=!armhf)_ZN11KIconEngineD0Ev@Base 4:16.04.0
+ (arch=!armhf)_ZN11KIconEngineD1Ev@Base 4:16.04.0
+ (arch=!armhf)_ZN11KIconEngineD2Ev@Base 4:16.04.0
  _ZN11MessageList12StorageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN11MessageList12StorageModel11qt_metacastEPKc@Base 4:15.12
  _ZN11MessageList12StorageModel14prepareForScanEv@Base 4:15.12
@@ -161,7 +161,7 @@ libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
  _ZN11MessageList4Core4Item11deepestItemEv@Base 4:15.12
  _ZN11MessageList4Core4Item11setReceiverERK7QString@Base 4:15.12
  _ZN11MessageList4Core4Item11setViewableEPNS0_5ModelEb@Base 4:15.12
- _ZN11MessageList4Core4Item12initialSetupElmRK7QStringS4_b@Base 4:15.12
+ (subst)_ZN11MessageList4Core4Item12initialSetupEl{size_t}RK7QStringS4_b@Base 4:15.12
  _ZN11MessageList4Core4Item13setIndexGuessEi@Base 4:15.12
  _ZN11MessageList4Core4Item13takeChildItemEPNS0_5ModelEPS1_@Base 4:15.12
  _ZN11MessageList4Core4Item14itemAboveChildEPS1_@Base 4:15.12
@@ -176,7 +176,7 @@ libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
  _ZN11MessageList4Core4Item22setInitialExpandStatusENS1_19InitialExpandStatusE@Base 4:15.12
  _ZN11MessageList4Core4Item4dumpERK7QString@Base 4:15.12
  _ZN11MessageList4Core4Item7setDateEl@Base 4:15.12
- _ZN11MessageList4Core4Item7setSizeEm@Base 4:15.12
+ (subst)_ZN11MessageList4Core4Item7setSizeE{size_t}@Base 4:15.12
  _ZN11MessageList4Core4Item9itemAboveEv@Base 4:15.12
  _ZN11MessageList4Core4Item9itemBelowEv@Base 4:15.12
  _ZN11MessageList4Core4Item9setItemIdEx@Base 4:15.12
@@ -461,12 +461,12 @@ libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
  _ZNK11MessageList6Widget26selectionAsMessageItemListEb@Base 4:15.12
  _ZNK11MessageList6Widget28currentThreadAsPersistentSetEv@Base 4:15.12
  _ZNK11MessageList6Widget28selectionAsMessageItemListIdEb@Base 4:15.12
- (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:15.12
+ (optional=templinst|arch=!armhf)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.12
- (optional=templinst)_ZNK12KConfigGroup9readEntryIyEET_PKcRKS1_@Base 4:15.12
+ (optional=templinst|arch=amd64)_ZNK12KConfigGroup9readEntryIyEET_PKcRKS1_@Base 4:15.12
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN5KMime7MessageEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES9_E4typeEv@Base 4:15.12
  (optional=templinst)_ZNK7Akonadi4Item14tryToCloneImplI14QSharedPointerIN5KMime7MessageEESt10shared_ptrIS4_EEENSt9enable_ifIXntsrSt7is_sameIT_T0_E5valueEbE4typeEPSA_PKi@Base 4:15.12
- _ZTI11KIconEngine@Base 4:16.04.0
+ (arch=!armhf)_ZTI11KIconEngine@Base 4:16.04.0
  _ZTIN11MessageList12StorageModelE@Base 4:15.12
  _ZTIN11MessageList19MessageListSettingsE@Base 4:15.12
  _ZTIN11MessageList4Core11MessageItemE@Base 4:15.12
@@ -480,7 +480,7 @@ libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
  _ZTIN11MessageList5Utils19AggregationComboBoxE@Base 4:15.12
  _ZTIN11MessageList5Utils23AggregationConfigButtonE@Base 4:15.12
  _ZTIN11MessageList6WidgetE@Base 4:15.12
- _ZTS11KIconEngine@Base 4:16.04.0
+ (arch=!armhf)_ZTS11KIconEngine@Base 4:16.04.0
  _ZTSN11MessageList12StorageModelE@Base 4:15.12
  _ZTSN11MessageList19MessageListSettingsE@Base 4:15.12
  _ZTSN11MessageList4Core11MessageItemE@Base 4:15.12
@@ -494,7 +494,7 @@ libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
  _ZTSN11MessageList5Utils19AggregationComboBoxE@Base 4:15.12
  _ZTSN11MessageList5Utils23AggregationConfigButtonE@Base 4:15.12
  _ZTSN11MessageList6WidgetE@Base 4:15.12
- _ZTV11KIconEngine@Base 4:16.04.0
+ (arch=!armhf)_ZTV11KIconEngine@Base 4:16.04.0
  _ZTVN11MessageList12StorageModelE@Base 4:15.12
  _ZTVN11MessageList19MessageListSettingsE@Base 4:15.12
  _ZTVN11MessageList4Core11MessageItemE@Base 4:15.12
