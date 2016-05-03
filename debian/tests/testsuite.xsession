@@ -6,7 +6,9 @@ export XDG_DATA_HOME="${HOME}/.qttest/share"
 mkdir -p ${XDG_DATA_HOME}
 export XDG_DATA_DIRS="$XDG_DATA_HOME:${HOME}/.local/share:/usr/share"
 openbox & WMPID=$!
+kdeinit5
 cleanup () {
+    kdeinit5_shutdown
     if [ -n "$WMPID" ]; then kill "$WMPID"; fi
 }
 trap cleanup EXIT
