@@ -52,6 +52,12 @@ Package: kf5-messagelib-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
+Breaks: kmail (<= 16.04),
+        libkf5messagelist5 (<= 4:16.04),
+        libkf5messageviewer5 (<= 4:16.04)
+Replaces: kmail (<= 16.04),
+          libkf5messagelist5 (<= 4:16.04),
+          libkf5messageviewer5 (<= 4:16.04)
 Description: KDE PIM messaging library, data files
  This package contains the data files shipped with the message libraries.
  .
