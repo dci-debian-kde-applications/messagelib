@@ -1,6 +1,6 @@
-kf5-messagelib (4:16.04.0-1~5.gbp4632eb) UNRELEASED; urgency=medium
+kf5-messagelib (4:16.04.1-1~1.gbp8b101f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @4632eb37a4748c1a646e09ef9fa9b09649665c34 **
+  ** SNAPSHOT build @8b101f1b30f6023b1facc5842142581b23a227e1 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @cbaf86e9e443a3ef0469738b91e61ba59e7c0789 **
@@ -11,9 +11,10 @@ kf5-messagelib (4:16.04.0-1~5.gbp4632eb) UNRELEASED; urgency=medium
   * Add missing akonadi test dependencies
   * testsuite: Call kdeinit
   * Add missing breaks/replaces
+  * UNRELEASED
 
   [ Automatic packaging ]
   * Update symbols files.
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 10 May 2016 12:26:17 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 21:26:22 +0200
