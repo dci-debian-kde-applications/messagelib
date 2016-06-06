@@ -1,20 +1,15 @@
-kf5-messagelib (4:16.04.1-1~1.gbp8b101f) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @8b101f1b30f6023b1facc5842142581b23a227e1 **
+kf5-messagelib (4:16.04.1-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @cbaf86e9e443a3ef0469738b91e61ba59e7c0789 **
-
   * Initial release.
   * Update symbols files.
   * Add dependency needed to fulfill the message composer cmake file
   * Add missing akonadi test dependencies
   * testsuite: Call kdeinit
   * Add missing breaks/replaces
-  * UNRELEASED
+  * Add new upstream patches: upstream_add_copying_files.patch
 
   [ Automatic packaging ]
   * Update symbols files.
-  * Update symbols files.
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 21:26:22 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 06 Jun 2016 12:29:18 +0200
