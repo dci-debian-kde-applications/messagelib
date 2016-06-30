@@ -1,11 +1,10 @@
-kf5-messagelib (4:16.04.2-1~1.gbp737d69) UNRELEASED; urgency=medium
+kf5-messagelib (4:16.04.2-1) experimental; urgency=medium
 
-  ** SNAPSHOT build @737d69414cce0fa9b87fd2ff4ac6ec2648662b7e **
-
+  [ Automatic packaging ]
   * Refresh patches
   * Update symbols files with the buildds results
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 23:47:05 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 30 Jun 2016 17:10:36 +0200
 
 kf5-messagelib (4:16.04.1-1) experimental; urgency=medium
 
