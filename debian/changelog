@@ -1,3 +1,11 @@
+kf5-messagelib (4:16.04.3-1~1.gbp9c6a94) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @9c6a94513992cbb0ae430f347168600481604b7a **
+
+  * Update symbols files from buildds logs (4:16.04.2-2).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 21:27:11 +0200
+
 kf5-messagelib (4:16.04.2-2) unstable; urgency=low
 
   [ Automatic packaging ]
