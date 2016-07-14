@@ -156,12 +156,12 @@ libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
  _ZN11MessageList4Core18QuickSearchWarningD0Ev@Base 4:15.12
  _ZN11MessageList4Core18QuickSearchWarningD1Ev@Base 4:15.12
  _ZN11MessageList4Core18QuickSearchWarningD2Ev@Base 4:15.12
- _ZN11MessageList4Core4Item10setMaxDateEl@Base 4:15.12
+ (subst)_ZN11MessageList4Core4Item10setMaxDateE{time_t}@Base 4:15.12
  _ZN11MessageList4Core4Item10setSubjectERK7QString@Base 4:15.12
  _ZN11MessageList4Core4Item11deepestItemEv@Base 4:15.12
  _ZN11MessageList4Core4Item11setReceiverERK7QString@Base 4:15.12
  _ZN11MessageList4Core4Item11setViewableEPNS0_5ModelEb@Base 4:15.12
- (subst)_ZN11MessageList4Core4Item12initialSetupEl{size_t}RK7QStringS4_b@Base 4:15.12
+ (subst)_ZN11MessageList4Core4Item12initialSetupE{time_t}{size_t}RK7QStringS4_b@Base 4:15.12
  _ZN11MessageList4Core4Item13setIndexGuessEi@Base 4:15.12
  _ZN11MessageList4Core4Item13takeChildItemEPNS0_5ModelEPS1_@Base 4:15.12
  _ZN11MessageList4Core4Item14itemAboveChildEPS1_@Base 4:15.12
@@ -175,7 +175,7 @@ libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
  _ZN11MessageList4Core4Item21setParentCollectionIdEx@Base 4:15.12
  _ZN11MessageList4Core4Item22setInitialExpandStatusENS1_19InitialExpandStatusE@Base 4:15.12
  _ZN11MessageList4Core4Item4dumpERK7QString@Base 4:15.12
- _ZN11MessageList4Core4Item7setDateEl@Base 4:15.12
+ (subst)_ZN11MessageList4Core4Item7setDateE{time_t}@Base 4:15.12
  (subst)_ZN11MessageList4Core4Item7setSizeE{size_t}@Base 4:15.12
  _ZN11MessageList4Core4Item9itemAboveEv@Base 4:15.12
  _ZN11MessageList4Core4Item9itemBelowEv@Base 4:15.12
