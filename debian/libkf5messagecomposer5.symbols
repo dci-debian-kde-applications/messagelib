@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.2 amd64 armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390x
+# SymbolsHelper-Confirmed: 4:16.04.3 x32
 libKF5MessageComposer.so.5 libkf5messagecomposer5 #MINVER#
  _ZN13MessageHelper10initHeaderERK14QSharedPointerIN5KMime7MessageEEPKN19KIdentityManagement15IdentityManagerEj@Base 4:15.12
  _ZN13MessageHelper16extractAddrSpecsERK14QSharedPointerIN5KMime7MessageEERK10QByteArray@Base 4:15.12
@@ -856,7 +856,7 @@ libKF5MessageComposer.so.5 libkf5messagecomposer5 #MINVER#
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN9KContacts9AddresseeEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES7_E4typeEv@Base 4:15.12
  (optional=templinst)_ZNSt11__copy_moveILb0ELb0ESt26random_access_iterator_tagE8__copy_mIPN5GpgME3KeyES5_EET0_T_S7_S6_@Base 4:15.12
  (optional=templinst|arch=!arm64 !armel !armhf !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc64)_ZNSt12_Destroy_auxILb0EE9__destroyIPN5GpgME3KeyEEEvT_S5_@Base 4:15.12
- (optional=templinst|arch=!amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !s390x !sparc64)_ZNSt20__copy_move_backwardILb1ELb0ESt26random_access_iterator_tagE13__copy_move_bIPN5GpgME3KeyES5_EET0_T_S7_S6_@Base 4:16.04.1
+ (optional=templinst|arch=!amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !s390x !sparc64 !x32)_ZNSt20__copy_move_backwardILb1ELb0ESt26random_access_iterator_tagE13__copy_move_bIPN5GpgME3KeyES5_EET0_T_S7_S6_@Base 4:16.04.1
  (optional=templinst|arch=mips mips64el mipsel)_ZNSt20__uninitialized_copyILb0EE13__uninit_copyIN9__gnu_cxx17__normal_iteratorIPKN5GpgME3KeyESt6vectorIS5_SaIS5_EEEEPS5_EET0_T_SE_SD_@Base 4:16.04.1
  (optional=templinst|arch=arm64 armhf hppa mips mips64el mipsel s390x sparc64)_ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIPN5GpgME3KeyEES5_EET0_T_S8_S7_@Base 4:16.04.0
  (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EE19_M_emplace_back_auxIIRKS2_EEEvDpOT_@Base 4:15.12
@@ -868,7 +868,7 @@ libKF5MessageComposer.so.5 libkf5messagecomposer5 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIIRKS1_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPS1_S3_EES7_@Base 4:15.12
- (optional=templinst|arch=arm64 armhf hppa hurd-i386 i386 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE9push_backERKS1_@Base 4:16.04.0
+ (optional=templinst|arch=arm64 armhf hppa hurd-i386 i386 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE9push_backERKS1_@Base 4:16.04.0
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EEC1ERKS3_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EEC2ERKS3_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EED1Ev@Base 4:15.12
