@@ -2,7 +2,12 @@ kf5-messagelib (4:16.04.3-2~1.gbp3a3cee) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @3a3cee120adfac423dc3a2a66d801341411a664f **
 
+  [ Automatic packaging ]
   * Update symbols files with the buildds results
+
+  [ Pino Toscano ]
+  * autopkgtest: switch from oxygen5-icon-theme back to the canonical
+    oxygen-icon-theme.
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 16 Jul 2016 17:01:00 +0200
 
