@@ -461,7 +461,7 @@ libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
  _ZNK11MessageList6Widget26selectionAsMessageItemListEb@Base 4:15.12
  _ZNK11MessageList6Widget28currentThreadAsPersistentSetEv@Base 4:15.12
  _ZNK11MessageList6Widget28selectionAsMessageItemListIdEb@Base 4:15.12
- (optional=templinst|arch=)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:15.12
+ (optional=templinst|arch=amd64 armhf i386)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.12
  (optional=templinst|arch=amd64 hppa kfreebsd-amd64 mips64el ppc64 ppc64el s390x sparc64 x32)_ZNK12KConfigGroup9readEntryIyEET_PKcRKS1_@Base 4:15.12
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN5KMime7MessageEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES9_E4typeEv@Base 4:15.12
