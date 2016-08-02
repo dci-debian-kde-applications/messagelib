@@ -1,6 +1,4 @@
-kf5-messagelib (4:16.04.3-2~3.gbp5186c3) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @5186c3ed3b54966005816526f49da6921371caa4 **
+kf5-messagelib (4:16.04.3-2) unstable; urgency=high
 
   [ Automatic packaging ]
   * Update symbols files with the buildds results
@@ -12,9 +10,8 @@ kf5-messagelib (4:16.04.3-2~3.gbp5186c3) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * autopkgtest: switch from oxygen5-icon-theme back to the canonical
     oxygen-icon-theme.
-  * autopkgtest: switch from oxygen5-icon-theme to oxygen-icon-theme
 
- -- Pino Toscano <pino@debian.org>  Tue, 02 Aug 2016 13:52:49 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 02 Aug 2016 14:06:21 +0200
 
 kf5-messagelib (4:16.04.3-1) unstable; urgency=medium
 
