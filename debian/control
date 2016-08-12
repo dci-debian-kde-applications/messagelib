@@ -175,6 +175,7 @@ Description: KDE PIM messaging library, message viewer devel files
 
 Package: libkf5templateparser5
 Architecture: any
+Multi-Arch: same
 Depends: kf5-messagelib-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -202,6 +203,7 @@ Description: KDE PIM messaging library, template parser devel files
 
 Package: libkf5mimetreeparser5
 Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KDE PIM Mime Tree parser library
  This library implements a parser for the mime tree used by KMail.
@@ -223,6 +225,7 @@ Description: KDE PIM Mime Tree parser library devel files
 Package: libkf5webengineviewer5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: same
 Description: KDE's Qt Web Engine Viewer
  This library implements view on Qt Web Engine used by KDE PIM.
  .
