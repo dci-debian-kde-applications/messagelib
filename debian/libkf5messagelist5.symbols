@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.3 amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390x x32
+# SymbolsHelper-Confirmed: 4:16.04.3 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x x32
 libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
  (arch=!armel !armhf)_ZN11KIconEngineD0Ev@Base 4:16.04.0
  (arch=!armel !armhf)_ZN11KIconEngineD1Ev@Base 4:16.04.0
@@ -461,9 +461,9 @@ libKF5MessageList.so.5 libkf5messagelist5 #MINVER#
  _ZNK11MessageList6Widget26selectionAsMessageItemListEb@Base 4:15.12
  _ZNK11MessageList6Widget28currentThreadAsPersistentSetEv@Base 4:15.12
  _ZNK11MessageList6Widget28selectionAsMessageItemListIdEb@Base 4:15.12
- (optional=templinst|arch=amd64 armhf i386)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:15.12
+ (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.12
- (optional=templinst|arch=amd64 hppa kfreebsd-amd64 mips64el ppc64 ppc64el s390x sparc64 x32)_ZNK12KConfigGroup9readEntryIyEET_PKcRKS1_@Base 4:15.12
+ (optional=templinst|arch=alpha amd64 hppa kfreebsd-amd64 mips64el ppc64 ppc64el s390x sparc64 x32)_ZNK12KConfigGroup9readEntryIyEET_PKcRKS1_@Base 4:15.12
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN5KMime7MessageEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES9_E4typeEv@Base 4:15.12
  (optional=templinst)_ZNK7Akonadi4Item14tryToCloneImplI14QSharedPointerIN5KMime7MessageEESt10shared_ptrIS4_EEENSt9enable_ifIXntsrSt7is_sameIT_T0_E5valueEbE4typeEPSA_PKi@Base 4:15.12
  (arch=!armel !armhf)_ZTI11KIconEngine@Base 4:16.04.0
