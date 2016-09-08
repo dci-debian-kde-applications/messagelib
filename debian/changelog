@@ -1,12 +1,13 @@
-kf5-messagelib (4:16.08.0-1~1.gbp0254cd) UNRELEASED; urgency=medium
+kf5-messagelib (4:16.08.1-1~1.gbp57516a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @0254cd8fe00fe0239829bdd1a18c524c88ce1c65 **
+  ** SNAPSHOT build @57516a11065c20d9e9b428bad58648ead76e7e17 **
 
   * Update build-deps and deps with the info from cmake
   * Refresh patches
   * Update symbols files with the buildds results
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 26 Aug 2016 15:26:33 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 21:26:42 +0200
 
 kf5-messagelib (4:16.04.3-2) unstable; urgency=high
 
