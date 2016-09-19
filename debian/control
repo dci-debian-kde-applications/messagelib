@@ -57,11 +57,11 @@ Depends: ${misc:Depends}
 Breaks: kmail (<= 16.04),
         libkf5messagelist5 (<= 4:16.04),
         libkf5messageviewer5 (<= 4:16.04),
-        kdepim-addons (<< ${source:Version})
+        kdepim-addons (<< 4:16.08.1)
 Replaces: kmail (<= 16.04),
           libkf5messagelist5 (<= 4:16.04),
           libkf5messageviewer5 (<= 4:16.04),
-          kdepim-addons (<< ${source:Version})
+          kdepim-addons (<< 4:16.08.1)
 Description: KDE PIM messaging library, data files
  This package contains the data files shipped with the message libraries.
  .
