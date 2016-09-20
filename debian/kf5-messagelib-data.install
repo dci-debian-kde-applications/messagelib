@@ -1,4 +1,5 @@
 etc/xdg/messagelib.categories
+etc/xdg/messagelib.renamecategories
 etc/xdg/messageviewer_header_themes.knsrc
 usr/share/config.kcfg/customtemplates_kfg.kcfg
 usr/share/config.kcfg/templatesconfiguration_kfg.kcfg
