@@ -54,10 +54,8 @@ Package: kf5-messagelib-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
-Breaks: libkf5messagelist5 (<= 4:16.04),
-        libkf5messageviewer5 (<= 4:16.04)
-Replaces: libkf5messagelist5 (<= 4:16.04),
-          libkf5messageviewer5 (<= 4:16.04)
+Breaks: libkf5messagelist5 (<= 4:16.04), libkf5messageviewer5 (<= 4:16.04)
+Replaces: libkf5messagelist5 (<= 4:16.04), libkf5messageviewer5 (<= 4:16.04)
 Description: KDE PIM messaging library, data files
  This package contains the data files shipped with the message libraries.
  .
@@ -69,6 +67,8 @@ Multi-Arch: same
 Depends: kf5-messagelib-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0)
+Conflicts: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0)
 Description: KDE PIM messaging library, composer library
  This package contains the message composer library. It provides basic e-mail
  message composing facilities.
