@@ -44,6 +44,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libqt5webkit5-dev (>= 5.4.0~),
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.4.0~),
+               qtbase5-private-dev (>= 5.4.0~),
                qttools5-dev (>= 5.4.0~)
 Standards-Version: 3.9.8
 Homepage: http://pim.kde.org/
