@@ -1,3 +1,9 @@
+kf5-messagelib (4:16.04.3-3~) UNRELEASED; urgency=medium
+
+  * Team upload.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2016 13:29:10 +0100
+
 kf5-messagelib (4:16.04.3-2) unstable; urgency=high
 
   [ Automatic packaging ]
