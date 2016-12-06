@@ -1,3 +1,4 @@
 upstream_add_copying_files.patch
 make-it-impossible-to-override-css-settings-from-a-h.patch
 remove_gpgmepp.patch
+make-tests-run-optimized.patch
