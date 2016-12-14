@@ -39,11 +39,13 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5webkit-dev (>= 5.19.0~),
                libkf5windowsystem-dev (>= 5.19.0~),
                libkf5xmlgui-dev (>= 5.19.0~),
+               libqgpgme7-dev,
                libqt5webchannel-dev,
                libqt5webengine5-dev,
                libqt5webkit5-dev (>= 5.4.0~),
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.4.0~),
+               qtbase5-private-dev (>= 5.4.0~),
                qttools5-dev (>= 5.4.0~)
 Standards-Version: 3.9.8
 Homepage: http://pim.kde.org/
@@ -54,12 +56,13 @@ Package: kf5-messagelib-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
-Breaks: kmail (<= 16.04),
+Breaks: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0),
         libkf5messagelist5 (<= 4:16.04),
         libkf5messageviewer5 (<= 4:16.04)
-Replaces: kmail (<= 16.04),
+Replaces: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0),
           libkf5messagelist5 (<= 4:16.04),
           libkf5messageviewer5 (<= 4:16.04)
+Conflicts: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0)
 Description: KDE PIM messaging library, data files
  This package contains the data files shipped with the message libraries.
  .
@@ -71,6 +74,8 @@ Multi-Arch: same
 Depends: kf5-messagelib-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0)
+Conflicts: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0)
 Description: KDE PIM messaging library, composer library
  This package contains the message composer library. It provides basic e-mail
  message composing facilities.
@@ -151,8 +156,8 @@ Multi-Arch: same
 Depends: kf5-messagelib-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: kdepim-addons (<< 16.07), libmessageviewer5
-Replaces: kdepim-addons (<< 16.07), libmessageviewer5
+Breaks: libmessageviewer5
+Replaces: libmessageviewer5
 Description: KDE PIM messaging library, message viewer library
  This package contains the message viewer library which implements feature-rich
  and highly configurable widget for viewing e-mail messages.
