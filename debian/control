@@ -56,10 +56,10 @@ Package: kf5-messagelib-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
-Breaks: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0),
+Breaks: kdepim-addons (<< 16.12.0),
         libkf5messagelist5 (<= 4:16.04),
         libkf5messageviewer5 (<= 4:16.04)
-Replaces: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0),
+Replaces: kdepim-addons (<< 16.12.0),
           libkf5messagelist5 (<= 4:16.04),
           libkf5messageviewer5 (<= 4:16.04)
 Conflicts: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0)
@@ -156,8 +156,8 @@ Multi-Arch: same
 Depends: kf5-messagelib-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: libmessageviewer5
-Replaces: libmessageviewer5
+Breaks: kdepim-addons (<< 4:16.12.0), libmessageviewer5
+Replaces: kdepim-addons (<< 4:16.12.0), libmessageviewer5
 Description: KDE PIM messaging library, message viewer library
  This package contains the message viewer library which implements feature-rich
  and highly configurable widget for viewing e-mail messages.
