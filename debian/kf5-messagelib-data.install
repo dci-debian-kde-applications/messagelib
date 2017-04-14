@@ -6,5 +6,6 @@ usr/share/config.kcfg/templatesconfiguration_kfg.kcfg
 usr/share/kconf_update/messageviewer.upd
 usr/share/knotifications5/messageviewer.notifyrc
 usr/share/libmessageviewer/
+usr/share/locale/
 usr/share/messagelist/
 usr/share/messageviewer/
