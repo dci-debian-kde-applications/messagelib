@@ -91,6 +91,7 @@ Multi-Arch: same
 Depends: libkf5identitymanagement-dev (>= 5.2.40~),
          libkf5libkleo-dev (>= 5.2.0~),
          libkf5messagecomposer5 (= ${binary:Version}),
+         libkf5mime-dev,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE PIM messaging library, composer devel files
@@ -116,6 +117,7 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libkf5messagecore5 (= ${binary:Version}),
+         libkf5mime-dev,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE PIM messaging library, core devel files
@@ -142,7 +144,8 @@ Package: libkf5messagelist-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5messagelist5 (= ${binary:Version}),
+Depends: libkf5akonadi-dev,
+         libkf5messagelist5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE PIM messaging library, message list devel files
@@ -171,6 +174,7 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libkf5messageviewer5 (= ${binary:Version}),
+         libkf5pimcommon-dev,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE PIM messaging library, message viewer devel files
@@ -221,7 +225,8 @@ Package: libkf5mimetreeparser-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5mimetreeparser5 (= ${binary:Version}),
+Depends: libkf5mime-dev,
+         libkf5mimetreeparser5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE PIM Mime Tree parser library devel files
@@ -243,6 +248,7 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libkf5webengineviewer5 (= ${binary:Version}),
+         qtwebengine5-dev,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE's Qt Web Engine Viewer devel files
