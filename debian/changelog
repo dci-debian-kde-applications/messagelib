@@ -1,12 +1,6 @@
 kf5-messagelib (4:16.04.3-3~) UNRELEASED; urgency=medium
 
-  [ Debian Qt/KDE Maintainers ]
   * Team upload.
-
-  [ Sandro Knauß ]
-  * Build against GpgME>=1.8.0, to get rid of gpgmepp
-    - Update Build-Deps (libgpgme11-dev-, libgpgmepp-dev+).
-    - Add patch remove_gpgmepp.patch, to replace KF5::Gpgme with GpgME.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2016 13:29:10 +0100
 
