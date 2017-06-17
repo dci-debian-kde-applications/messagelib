@@ -1,4 +1,4 @@
-kf5-messagelib (4:16.04.3-3~) UNRELEASED; urgency=medium
+kf5-messagelib (4:16.04.3-3) unstable; urgency=high
 
   * Team upload.
 
@@ -6,7 +6,7 @@ kf5-messagelib (4:16.04.3-3~) UNRELEASED; urgency=medium
   * Fix CVE-2017-9604: Send Later with Delay bypasses OpenPGP (Closes: #864803)
     - Added upstream patch fix-CVE-2017-9604.patch
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2016 13:29:10 +0100
+ -- Sandro Knauß <hefee@debian.org>  Sat, 17 Jun 2017 09:08:12 +0200
 
 kf5-messagelib (4:16.04.3-2) unstable; urgency=high
 
