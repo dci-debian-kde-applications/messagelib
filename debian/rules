@@ -3,4 +3,5 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_auto_test:
-	- xvfb-run -- dbus-run-session -- dh_auto_test --no-parallel
+	# Disable dh_auto_test at build time
+	:
