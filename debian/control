@@ -5,6 +5,7 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
+               dh-linktree,
                extra-cmake-modules (>= 5.23.0~),
                git,
                kio-dev (>= 5.23.0~),
