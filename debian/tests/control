@@ -1,6 +1,6 @@
 Tests: testsuite
 Depends: @, @builddeps@, build-essential,
-         xvfb, xauth, dbus-x11, libgl1-mesa-dri, gnupg-agent, akonadi-server,
+         xvfb, xauth, dbus, libgl1-mesa-dri, gnupg-agent, akonadi-server,
          akonadi-backend-sqlite, oxygen-icon-theme, openbox,
          libkf5akonadi-dev-bin, libkf5akonadisearch-bin, kinit
 Restrictions: build-needed
