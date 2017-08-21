@@ -1,9 +1,11 @@
 etc/xdg/messagelib.categories
+etc/xdg/messagelib.renamecategories
 etc/xdg/messageviewer_header_themes.knsrc
 usr/share/config.kcfg/customtemplates_kfg.kcfg
 usr/share/config.kcfg/templatesconfiguration_kfg.kcfg
 usr/share/kconf_update/messageviewer.upd
 usr/share/knotifications5/messageviewer.notifyrc
 usr/share/libmessageviewer/
+usr/share/locale/
 usr/share/messagelist/
 usr/share/messageviewer/

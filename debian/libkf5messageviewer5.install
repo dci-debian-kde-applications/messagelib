@@ -1,2 +1,3 @@
 usr/lib/*/libKF5MessageViewer.so.5
 usr/lib/*/libKF5MessageViewer.so.5.*
+usr/lib/*/qt5/plugins/messageviewer/messageviewer_defaultgrantleeheaderstyleplugin.so
