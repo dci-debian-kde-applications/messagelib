@@ -20,6 +20,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5completion-dev (>= 5.23.0~),
                libkf5config-dev (>= 5.23.0~),
                libkf5configwidgets-dev (>= 5.23.0~),
+               libkf5contacteditor-dev (>= 17.04.0~),
                libkf5contacts-dev (>= 5.3.1~),
                libkf5followupreminder-dev (>= 5.3.1~),
                libkf5grantleetheme-dev (>= 5.3.1~),
@@ -29,6 +30,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5identitymanagement-dev (>= 5.3.1~),
                libkf5itemviews-dev (>= 5.23.0~),
                libkf5jobwidgets-dev (>= 5.23.0~),
+               libkf5kaddressbookgrantlee-dev (>= 5.2.0~),
                libkf5kaddressbookgrantlee-dev (>= 5.3.1~),
                libkf5ldap-dev (>= 5.3.1~),
                libkf5libkdepim-dev (>= 5.3.1~),
@@ -43,24 +45,21 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5service-dev (>= 5.23.0~),
                libkf5sonnet-dev (>= 5.23.0~),
                libkf5textwidgets-dev (>= 5.23.0~),
+               libkf5webkit-dev (>= 5.19.0~),
                libkf5webkit-dev (>= 5.23.0~),
                libkf5widgetsaddons-dev (>= 5.23.0~),
                libkf5windowsystem-dev (>= 5.23.0~),
                libkf5xmlgui-dev (>= 5.23.0~),
-               libqt5webkit5-dev (>= 5.6.0~),
-               pkg-kde-tools (>= 0.12),
-               qtbase5-dev (>= 5.6.0~),
-               libkf5contacteditor-dev (>= 17.04.0~),
-               libkf5kaddressbookgrantlee-dev (>= 5.2.0~),
-               libkf5webkit-dev (>= 5.19.0~),
                libqgpgmepp-dev | libgpgme7-dev,
                libqt5webchannel5-dev | libqt5webchannel-dev,
-               qtwebengine5-dev | libqt5webengine5-dev,
                libqt5webkit5-dev (>= 5.4.0~),
+               libqt5webkit5-dev (>= 5.6.0~),
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.4.0~),
+               qtbase5-dev (>= 5.6.0~),
                qtbase5-private-dev (>= 5.4.0~),
-               qttools5-dev (>= 5.4.0~)
+               qttools5-dev (>= 5.4.0~),
+               qtwebengine5-dev | libqt5webengine5-dev,
 Standards-Version: 4.0.1
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/messagelib.git
@@ -73,28 +72,14 @@ Depends: ${misc:Depends}
 Breaks: kdepim-addons (<< 16.12.0),
         libkf5messagelist5 (<= 4:16.04),
         libkf5messageviewer5 (<= 4:16.04),
-        ${kde-l10n:all}
+        ${kde-l10n:all},
 Replaces: kdepim-addons (<< 16.12.0),
           libkf5messagelist5 (<= 4:16.04),
           libkf5messageviewer5 (<= 4:16.04),
-          ${kde-l10n:all}
+          ${kde-l10n:all},
 Conflicts: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0)
 Description: KDE PIM messaging library, data files
  This package contains the data files shipped with the message libraries.
- .
- This package is part of KDE PIM module.
-
-Package: libkf5messagecomposer5
-Architecture: any
-Multi-Arch: same
-Depends: kf5-messagelib-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Breaks: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0)
-Conflicts: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0)
-Description: KDE PIM messaging library, composer library
- This package contains the message composer library. It provides basic e-mail
- message composing facilities.
  .
  This package is part of KDE PIM module.
 
@@ -107,24 +92,26 @@ Depends: libkf5identitymanagement-dev (>= 5.3.1~),
          libkf5messagecomposer5 (= ${binary:Version}),
          libkf5mime-dev,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: KDE PIM messaging library, composer devel files
  This package contains the development files for the message composer library.
  Which provides basic e-mail message composing facilities.
  .
  This package is part of KDE PIM module.
 
-Package: libkf5messagecore5
+Package: libkf5messagecomposer5
 Architecture: any
 Multi-Arch: same
 Depends: kf5-messagelib-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
-Description: KDE PIM messaging library, core library
- This package contains the message core library. It provides basic e-mail
- message handling facilities.
+         ${shlibs:Depends},
+Breaks: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0)
+Conflicts: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0)
+Description: KDE PIM messaging library, composer library
+ This package contains the message composer library. It provides basic e-mail
+ message composing facilities.
  .
- This package is part the KDE PIM module.
+ This package is part of KDE PIM module.
 
 Package: libkf5messagecore-dev
 Section: libdevel
@@ -133,26 +120,24 @@ Multi-Arch: same
 Depends: libkf5messagecore5 (= ${binary:Version}),
          libkf5mime-dev,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: KDE PIM messaging library, core devel files
  This package contains the development files for the message core library.
  Which provides basic e-mail message handling facilities.
  .
  This package is part of KDE PIM module.
 
-Package: libkf5messagelist5
+Package: libkf5messagecore5
 Architecture: any
 Multi-Arch: same
 Depends: kf5-messagelib-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
-Breaks: libmessagelist5
-Replaces: libmessagelist5
-Description: KDE PIM messaging library, message list library
- This package contains the message list library. It provides a widget for the
- e-mail message lists with extensive filtering, grouping and useful features.
+         ${shlibs:Depends},
+Description: KDE PIM messaging library, core library
+ This package contains the message core library. It provides basic e-mail
+ message handling facilities.
  .
- This package is part of the KDE PIM module.
+ This package is part the KDE PIM module.
 
 Package: libkf5messagelist-dev
 Section: libdevel
@@ -161,7 +146,7 @@ Multi-Arch: same
 Depends: libkf5akonadi-dev,
          libkf5messagelist5 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: KDE PIM messaging library, message list devel files
  This package contains the development files for the message list library.
  Which provides a widget for the e-mail message lists with extensive filtering,
@@ -169,17 +154,17 @@ Description: KDE PIM messaging library, message list devel files
  .
  This package is part of KDE PIM module.
 
-Package: libkf5messageviewer5
+Package: libkf5messagelist5
 Architecture: any
 Multi-Arch: same
 Depends: kf5-messagelib-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
-Breaks: kdepim-addons (<< 16.12.0), libmessageviewer5
-Replaces: kdepim-addons (<< 16.12.0), libmessageviewer5
-Description: KDE PIM messaging library, message viewer library
- This package contains the message viewer library which implements feature-rich
- and highly configurable widget for viewing e-mail messages.
+         ${shlibs:Depends},
+Breaks: libmessagelist5
+Replaces: libmessagelist5
+Description: KDE PIM messaging library, message list library
+ This package contains the message list library. It provides a widget for the
+ e-mail message lists with extensive filtering, grouping and useful features.
  .
  This package is part of the KDE PIM module.
 
@@ -190,7 +175,7 @@ Multi-Arch: same
 Depends: libkf5messageviewer5 (= ${binary:Version}),
          libkf5pimcommon-dev,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: KDE PIM messaging library, message viewer devel files
  This package contains the development files for the message viewer library.
  Which provides the implementation of a feature-rich and highly configurable
@@ -198,40 +183,17 @@ Description: KDE PIM messaging library, message viewer devel files
  .
  This package is part of KDE PIM module.
 
-Package: libkf5templateparser5
+Package: libkf5messageviewer5
 Architecture: any
 Multi-Arch: same
 Depends: kf5-messagelib-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
-Description: KMail template parser library
- This library implements a parser for the mail templates which KMail uses to
- enable customization of initial structure for the new, reply or forwarded
- messages.
- .
- This package is part of the KDE PIM module.
-
-Package: libkf5templateparser-dev
-Section: libdevel
-Architecture: any
-Multi-Arch: same
-Depends: libkf5templateparser5 (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: KDE PIM messaging library, template parser devel files
- This package contains the development files for the template parser library.
- Which provides the implementation of a parser for the mail templates which
- KMail uses to enable customization of initial structure for the new, reply or
- forwarded messages.
- .
- This package is part of KDE PIM module.
-
-Package: libkf5mimetreeparser5
-Architecture: any
-Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: KDE PIM Mime Tree parser library
- This library implements a parser for the mime tree used by KMail.
+         ${shlibs:Depends},
+Breaks: kdepim-addons (<< 16.12.0), libmessageviewer5
+Replaces: kdepim-addons (<< 16.12.0), libmessageviewer5
+Description: KDE PIM messaging library, message viewer library
+ This package contains the message viewer library which implements feature-rich
+ and highly configurable widget for viewing e-mail messages.
  .
  This package is part of the KDE PIM module.
 
@@ -242,18 +204,46 @@ Multi-Arch: same
 Depends: libkf5mime-dev,
          libkf5mimetreeparser5 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: KDE PIM Mime Tree parser library devel files
  This library implements a parser for the mime tree used by KMail.
  .
  This package is part of the KDE PIM module.
 
-Package: libkf5webengineviewer5
+Package: libkf5mimetreeparser5
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Description: KDE's Qt Web Engine Viewer
- This library implements view on Qt Web Engine used by KDE PIM.
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KDE PIM Mime Tree parser library
+ This library implements a parser for the mime tree used by KMail.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5templateparser-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libkf5templateparser5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: KDE PIM messaging library, template parser devel files
+ This package contains the development files for the template parser library.
+ Which provides the implementation of a parser for the mail templates which
+ KMail uses to enable customization of initial structure for the new, reply or
+ forwarded messages.
+ .
+ This package is part of KDE PIM module.
+
+Package: libkf5templateparser5
+Architecture: any
+Multi-Arch: same
+Depends: kf5-messagelib-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: KMail template parser library
+ This library implements a parser for the mail templates which KMail uses to
+ enable customization of initial structure for the new, reply or forwarded
+ messages.
  .
  This package is part of the KDE PIM module.
 
@@ -264,8 +254,17 @@ Multi-Arch: same
 Depends: libkf5webengineviewer5 (= ${binary:Version}),
          qtwebengine5-dev,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: KDE's Qt Web Engine Viewer devel files
+ This library implements view on Qt Web Engine used by KDE PIM.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5webengineviewer5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: same
+Description: KDE's Qt Web Engine Viewer
  This library implements view on Qt Web Engine used by KDE PIM.
  .
  This package is part of the KDE PIM module.
