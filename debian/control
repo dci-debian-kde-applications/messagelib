@@ -177,6 +177,7 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libkf5messageviewer5 (= ${binary:Version}),
+         libkf5mimetreeparser-dev (= ${binary:Version}),
          libkf5pimcommon-dev (>= 4:17.08~),
          ${misc:Depends},
          ${shlibs:Depends},
