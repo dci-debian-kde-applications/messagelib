@@ -1,4 +1,4 @@
-kf5-messagelib (4:17.08.0-1~) UNRELEASED; urgency=medium
+kf5-messagelib (4:17.08.0-1~1) UNRELEASED; urgency=medium
 
   * New upstream release (17.08.0)
   * Migrating to pure dh
@@ -6,7 +6,7 @@ kf5-messagelib (4:17.08.0-1~) UNRELEASED; urgency=medium
   * Update upstream metadata
   * Update build-deps and deps with the info from cmake
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 21 Aug 2017 16:51:12 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 27 Aug 2017 10:11:12 +0200
 
 kf5-messagelib (4:17.08.0-0neon) xenial; urgency=medium
 
