@@ -109,7 +109,7 @@ Multi-Arch: same
 Depends: kf5-messagelib-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
-Breaks: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0)
+Breaks: kdepim-addons (<< 17.08), kmail (<< 4:17.08)
 Conflicts: kdepim-addons (<< 16.08.1+p16.04+git20160922.0528-0)
 Description: KDE PIM messaging library, composer library
  This package contains the message composer library. It provides basic e-mail
@@ -142,6 +142,7 @@ Description: KDE PIM messaging library, core library
  message handling facilities.
  .
  This package is part the KDE PIM module.
+Breaks: kdepim-addons (<< 17.08), kmail (<< 4:17.08)
 
 Package: libkf5messagelist-dev
 Section: libdevel
@@ -164,7 +165,7 @@ Multi-Arch: same
 Depends: kf5-messagelib-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
-Breaks: libmessagelist5
+Breaks: kmail (<< 4:17.08), libmessagelist5
 Replaces: libmessagelist5
 Description: KDE PIM messaging library, message list library
  This package contains the message list library. It provides a widget for the
@@ -195,7 +196,12 @@ Multi-Arch: same
 Depends: kf5-messagelib-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
-Breaks: kdepim-addons (<< 16.12.0), libmessageviewer5
+Breaks: akonadiconsole (<< 4:17.08),
+        akregator (<< 4:17.08),
+        kdepim-addons (<< 17.08),
+        kdepim-themeeditors (<< 4:17.08),
+        kmail (<< 4:17.08),
+        libmessageviewer5,
 Replaces: kdepim-addons (<< 16.12.0), libmessageviewer5
 Description: KDE PIM messaging library, message viewer library
  This package contains the message viewer library which implements feature-rich
@@ -252,6 +258,7 @@ Description: KMail template parser library
  messages.
  .
  This package is part of the KDE PIM module.
+Breaks: kmail (<< 4:17.08)
 
 Package: libkf5webengineviewer-dev
 Section: libdevel
