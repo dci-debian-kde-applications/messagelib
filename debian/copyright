@@ -1,57 +1,89 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
 Files: *
-Copyright: 2009, Andras Mantia <andras@kdab.net>
-           2002-2003, Carsten Pfeiffer <pfeiffer@kde.org>
-           2005, David Faure <faure@kde.org>
-           2002, Ingo Kloecker <kloecker@kde.org>
-           2002-2003, Karl-Heinz Zimmer <khz@kde.org>
-           2002-2009, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
-           2003-2004, Marc Mutz <mutz@kde.org>
-           2011-2016, Montel Laurent <montel@kde.org>
+Copyright: 2010, Casey Link <unnamedrambler@gmail.com>
+           2009, Constantin Berzan <exit3219@gmail.com>
+           2004-2005, Cornelius Schumacher <schumacher@kde.org>
+           2007, David Faure <faure@kde.org>
+           2004, Jakob Schröter <js@camaya.net>
+           2010-2016, Klaralvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2009-2010, Klaralvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
+           2010, Klarälvdalens Datakonsult AB
+           2009-2010, Leo Franchi <lfranchi@kde.org>
+           2002-2004, Marc Mutz <mutz@kde.org>
+           1997, Markus Wuebben <markus.wuebben@kde.org>
+           2010-2017, Montel Laurent <montel@kde.org>
            2013, Sandro Knauß <bugs@sandroknauss.de>
-           2014, Sandro Knauß <knauss@kolabsys.com>
-           2015, Sandro Knauß <sknauss@kde.org>
-           2009-2011, Torgny Nyblom <nyblom@kde.org>
-           2003, Zack Rusin <zack@kde.org>
-License: GPL-2
+           2015-2017, Sandro Knauß <sknauss@kde.org>
+           2010, Thomas McGuire <thomas.mcguire@kdab.com>
+           2010, Torgny Nyblom <nyblom@kde.org>
+           2007-2015, Volker Krause <vkrause@kde.org>
+           author Tobias Koenig <tokoe@kdab.com>
+           1998-2010, Free Software Foundation, Inc
+           2000-2002, KDE e.v
+           2000-2003, Meni Livne <livne@kde.org>
+           2010, Rosetta Contributors and Canonical Ltd 2010
+           1998-2017, This_file_is_part_of_KDE
+License: LGPL-2+
 
-Files: messagecomposer/src/attachment/attachmentcontrollerbase.cpp
-       messagecomposer/src/attachment/attachmentcontrollerbase.h
-       messagecomposer/src/attachment/attachmentmodel.cpp
-       messagecomposer/src/attachment/attachmentmodel.h
+Files: COPYING
+       messagecomposer/autotests/followupreminderselectdatedialogtest.cpp
+       messagecomposer/autotests/followupreminderselectdatedialogtest.h
+       messagecomposer/autotests/globalparttest.cpp
+       messagecomposer/autotests/globalparttest.h
+       messagecomposer/autotests/infoparttest.cpp
+       messagecomposer/autotests/infoparttest.h
+       messagecomposer/autotests/textparttest.cpp
+       messagecomposer/autotests/textparttest.h
+       messagecomposer/src/attachment/*
+       messagecomposer/src/composer-ng/autotests/richtextcomposerngtest.cpp
+       messagecomposer/src/composer-ng/autotests/richtextcomposerngtest.h
+       messagecomposer/src/composer-ng/richtextcomposerng.cpp
+       messagecomposer/src/composer-ng/richtextcomposerng.h
+       messagecomposer/src/composer-ng/richtextcomposersignatures.cpp
+       messagecomposer/src/composer-ng/richtextcomposersignatures.h
        messagecomposer/src/composer/composerlineedit.cpp
        messagecomposer/src/composer/composerlineedit.h
        messagecomposer/src/composer/keyresolver.cpp
        messagecomposer/src/composer/keyresolver.h
        messagecomposer/src/composer/signaturecontroller.cpp
        messagecomposer/src/composer/signaturecontroller.h
-       messagecomposer/src/helper/messagefactory.cpp
-       messagecomposer/src/helper/messagefactory.h
+       messagecomposer/src/followupreminder/*
+       messagecomposer/src/helper/messagefactoryng.cpp
+       messagecomposer/src/helper/messagefactoryng.h
        messagecomposer/src/helper/messagehelper.cpp
        messagecomposer/src/helper/messagehelper.h
+       messagecomposer/src/imagescaling/autotests/imagescalingtest.cpp
+       messagecomposer/src/imagescaling/autotests/imagescalingtest.h
+       messagecomposer/src/imagescaling/imagescaling.cpp
+       messagecomposer/src/imagescaling/imagescaling.h
+       messagecomposer/src/imagescaling/imagescalingselectformat.cpp
+       messagecomposer/src/imagescaling/imagescalingselectformat.h
+       messagecomposer/src/imagescaling/imagescalingutils.cpp
+       messagecomposer/src/imagescaling/imagescalingutils.h
+       messagecomposer/src/imagescaling/imagescalingwidget.cpp
+       messagecomposer/src/imagescaling/imagescalingwidget.h
+       messagecomposer/src/imagescaling/tests/imagescaling_gui.cpp
+       messagecomposer/src/imagescaling/tests/imagescaling_gui.h
        messagecomposer/src/job/aliasesexpandjob.cpp
        messagecomposer/src/job/aliasesexpandjob.h
        messagecomposer/src/job/distributionlistexpandjob.cpp
        messagecomposer/src/job/distributionlistexpandjob.h
        messagecomposer/src/job/emailaddressresolvejob.cpp
        messagecomposer/src/job/emailaddressresolvejob.h
+       messagecomposer/src/job/savecontactpreferencejob.cpp
+       messagecomposer/src/job/savecontactpreferencejob.h
        messagecomposer/src/messagecomposer-version.h.cmake
        messagecomposer/src/recipient/recipient.cpp
        messagecomposer/src/recipient/recipient.h
-       messagecomposer/src/sender/akonadisender.cpp
-       messagecomposer/src/sender/akonadisender.h
-       messagecomposer/src/sender/messagesender.h
+       messagecomposer/src/sender/*
        messagecomposer/tests/recipientseditortest.cpp
        messagecomposer/tests/recipientseditortest.h
        messagecore/src/attachment/attachmentfromfolderjob.cpp
        messagecore/src/attachment/attachmentfromfolderjob.h
        messagecore/src/attachment/attachmentfromurlbasejob.cpp
        messagecore/src/attachment/attachmentfromurlbasejob.h
-       messagecore/src/helpers/messagehelpers.cpp
-       messagecore/src/helpers/messagehelpers.h
-       messagecore/src/helpers/nodehelper.cpp
-       messagecore/src/helpers/nodehelper.h
+       messagecore/src/helpers/*
        messagelist/src/core/aggregation.cpp
        messagelist/src/core/aggregation.h
        messagelist/src/core/delegate.cpp
@@ -90,67 +122,52 @@ Files: messagecomposer/src/attachment/attachmentcontrollerbase.cpp
        messagelist/src/core/theme.h
        messagelist/src/core/themedelegate.cpp
        messagelist/src/core/themedelegate.h
+       messagelist/src/core/threadingcache.cpp
+       messagelist/src/core/threadingcache.h
        messagelist/src/core/view.cpp
        messagelist/src/core/view.h
        messagelist/src/core/widgetbase.cpp
        messagelist/src/core/widgetbase.h
+       messagelist/src/core/widgets/searchcollectionindexingwarning.cpp
+       messagelist/src/core/widgets/searchcollectionindexingwarning.h
        messagelist/src/pane.cpp
        messagelist/src/pane.h
        messagelist/src/storagemodel.cpp
        messagelist/src/storagemodel.h
-       messagelist/src/utils/aggregationeditor.cpp
-       messagelist/src/utils/aggregationeditor.h
-       messagelist/src/utils/comboboxutils.cpp
-       messagelist/src/utils/comboboxutils.h
-       messagelist/src/utils/configureaggregationsdialog.cpp
-       messagelist/src/utils/configureaggregationsdialog.h
-       messagelist/src/utils/configureaggregationsdialog_p.h
-       messagelist/src/utils/configurethemesdialog.cpp
-       messagelist/src/utils/configurethemesdialog.h
-       messagelist/src/utils/configurethemesdialog_p.h
-       messagelist/src/utils/optionseteditor.cpp
-       messagelist/src/utils/optionseteditor.h
-       messagelist/src/utils/themeeditor.cpp
-       messagelist/src/utils/themeeditor.h
+       messagelist/src/utils/*
        messagelist/src/widget.cpp
        messagelist/src/widget.h
-       messageviewer/src/antispam/antispamconfig.cpp
-       messageviewer/src/antispam/antispamconfig.h
-       messageviewer/src/antispam/spamheaderanalyzer.cpp
-       messageviewer/src/antispam/spamheaderanalyzer.h
-       messageviewer/src/interfaces/bodypart.h
-       messageviewer/src/interfaces/bodypartformatter.cpp
-       messageviewer/src/interfaces/bodypartformatter.h
-       messageviewer/src/interfaces/bodyparturlhandler.h
-       messageviewer/src/interfaces/htmlwriter.h
-       messageviewer/src/job/kleojobexecutor.cpp
-       messageviewer/src/job/kleojobexecutor.h
-       messageviewer/src/objecttreesourceif.h
+       messageviewer/src/antispam/*
+       messageviewer/src/interfaces/*
+       messageviewer/src/messagepartthemes/default/messagepartrenderbase.cpp
+       messageviewer/src/messagepartthemes/default/messagepartrendererbase.h
+       messageviewer/src/messagepartthemes/default/messagepartrendererfactorybase.cpp
+       messageviewer/src/messagepartthemes/default/messagepartrendererfactorybase.h
+       messageviewer/src/messagepartthemes/default/messagepartrendererfactorybase_p.h
+       messageviewer/src/messagepartthemes/default/rendererpluginfactorysingleton.cpp
+       messageviewer/src/messagepartthemes/default/rendererpluginfactorysingleton.h
+       messageviewer/src/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/defaultgrantleeheaderstrategy.cpp
+       messageviewer/src/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/defaultgrantleeheaderstrategy.h
+       messageviewer/src/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/defaultgrantleeheaderstyleinterface.cpp
+       messageviewer/src/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/defaultgrantleeheaderstyleinterface.h
+       messageviewer/src/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/defaultgrantleeheaderstyleplugin.cpp
+       messageviewer/src/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/defaultgrantleeheaderstyleplugin.h
        messageviewer/src/ui/settings.ui
        messageviewer/src/utils/messageviewerutil.cpp
        messageviewer/src/utils/messageviewerutil.h
+       messageviewer/src/utils/messageviewerutil_p.h
        messageviewer/src/utils/mimetype.cpp
        messageviewer/src/utils/mimetype.h
-       messageviewer/src/viewer/bodypartformatterbasefactory.cpp
-       messageviewer/src/viewer/bodypartformatterbasefactory.h
-       messageviewer/src/viewer/bodypartformatterbasefactory_p.h
        messageviewer/src/viewer/bodypartformatterfactory.cpp
        messageviewer/src/viewer/bodypartformatterfactory.h
        messageviewer/src/viewer/bodypartformatterfactorysingleton.cpp
        messageviewer/src/viewer/bodypartformatterfactorysingleton.h
-       messageviewer/src/viewer/cryptohelper.cpp
-       messageviewer/src/viewer/cryptohelper.h
        messageviewer/src/viewer/editorwatcher.cpp
        messageviewer/src/viewer/editorwatcher.h
-       messageviewer/src/viewer/enums.h
-       messageviewer/src/viewer/nodehelper.cpp
-       messageviewer/src/viewer/nodehelper.h
        messageviewer/src/viewer/objecttreeemptysource.cpp
        messageviewer/src/viewer/objecttreeemptysource.h
        messageviewer/src/viewer/objecttreeviewersource.cpp
        messageviewer/src/viewer/objecttreeviewersource.h
-       messageviewer/src/viewer/partnodebodypart.cpp
-       messageviewer/src/viewer/partnodebodypart.h
        messageviewer/src/viewer/viewer.cpp
        messageviewer/src/viewer/viewer.h
        messageviewer/src/viewer/viewer_p.cpp
@@ -161,14 +178,25 @@ Files: messagecomposer/src/attachment/attachmentcontrollerbase.cpp
        messageviewer/src/widgets/configurewidget.h
        messageviewer/src/widgets/vcardviewer.cpp
        messageviewer/src/widgets/vcardviewer.h
+       mimetreeparser/src/interfaces/*
+       mimetreeparser/src/job/*
+       mimetreeparser/src/utils/*
+       mimetreeparser/src/viewer/bodypartformatterbasefactory.cpp
+       mimetreeparser/src/viewer/bodypartformatterbasefactory.h
+       mimetreeparser/src/viewer/bodypartformatterbasefactory_p.h
+       mimetreeparser/src/viewer/cryptohelper.cpp
+       mimetreeparser/src/viewer/cryptohelper.h
+       mimetreeparser/src/viewer/enums.h
+       mimetreeparser/src/viewer/nodehelper.cpp
+       mimetreeparser/src/viewer/nodehelper.h
+       mimetreeparser/src/viewer/partnodebodypart.cpp
+       mimetreeparser/src/viewer/partnodebodypart.h
        templateparser/src/customtemplates.cpp
        templateparser/src/customtemplates.h
        templateparser/src/customtemplatesmenu.cpp
        templateparser/src/customtemplatesmenu.h
        templateparser/src/defaulttemplates.cpp
        templateparser/src/defaulttemplates.h
-       templateparser/src/templateparser.cpp
-       templateparser/src/templateparser.h
        templateparser/src/templatesconfiguration.cpp
        templateparser/src/templatesconfiguration.h
        templateparser/src/templatesinsertcommand.cpp
@@ -177,210 +205,146 @@ Copyright: 2009, Andras Mantia <andras@kdab.net>
            2009, Constantin Berzan <exit3219@gmail.com>
            2000-2004, Cornelius Schumacher <schumacher@kde.org>
            2002, Daniel Molkentin <molkentin@kde.org>
+           2016, Daniel Vrátil <dvratil@kde.org>
            2006, Dmitry Morozhnikov <dmiceman@mail.ru>
            2006, Dmitry Morozhnikov <dmiceman@ubiz.ru>
+           1989-1991, Free Software Foundation, Inc
            2004, Ingo Kloecker <kloecker@kde.org>
            2010, KDAB
            2009, Kevin Ottens <ervin@kde.org>
            2004-2005, Klarälvdalens Datakonsult AB
            2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
-           2009, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
-           2011-2016, Laurent Montel <montel@kde.org>
+           2009-2016, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
            2010, Leo Franchi <lfranchi@kde.org>
            2003-2004, Marc Mutz <mutz@kde.org>
            1997, Markus Wuebben <markus.wuebben@kde.org>
            2011, Martin Bednár <serafean@gmail.com>
            2009, Martin Koller <kollix@aon.at>
+           2011-2017, Montel Laurent <montel@kde.org>
            2004, Patrick Audley <paudley@blackcat.ca>
            1998-1999, Preston Brown <pbrown@kde.org>
            2015, Sandro Knauß <knauss@kolabsys.com>
-           2016, Sandro Knauß <sknauss@kde.org>
-           2011, Sudhendu Kumar <sudhendu.kumar.roy@gmail.com>
+           2016-2017, Sandro Knauß <sknauss@kde.org>
            2008, Szymon Tomasz Stefanek <pragma@kvirc.net>
            2009, Thomas McGuire <mcguire@kde.org>
            2005, Till Adam
            2004, Till Adam < adam@kde.org >
-           2005-2010, Till Adam <adam@kde.org>
+           2005, Till Adam <adam@kde.org>
            2010, Torgny Nyblom <nyblom@kde.org>
            2007-2010, Volker Krause <vkrause@kde.org>
            2001-2002, the KPGP authors
 License: GPL-2+
 
-Files: messagecomposer/autotests/attachmentjobtest.cpp
-       messagecomposer/autotests/attachmentjobtest.h
-       messagecomposer/autotests/attachmentvcardfromaddressbookjobtest.cpp
-       messagecomposer/autotests/attachmentvcardfromaddressbookjobtest.h
-       messagecomposer/autotests/composertest.cpp
-       messagecomposer/autotests/composertest.h
-       messagecomposer/autotests/cryptocomposertest.cpp
-       messagecomposer/autotests/cryptocomposertest.h
-       messagecomposer/autotests/cryptofunctions.cpp
-       messagecomposer/autotests/cryptofunctions.h
-       messagecomposer/autotests/encryptjobtest.cpp
-       messagecomposer/autotests/encryptjobtest.h
-       messagecomposer/autotests/maintextjobtest.cpp
-       messagecomposer/autotests/maintextjobtest.h
-       messagecomposer/autotests/messagefactorytest.cpp
-       messagecomposer/autotests/messagefactorytest.h
-       messagecomposer/autotests/multipartjobtest.cpp
-       messagecomposer/autotests/multipartjobtest.h
-       messagecomposer/autotests/setupenv.cpp
-       messagecomposer/autotests/setupenv.h
-       messagecomposer/autotests/signencrypttest.cpp
-       messagecomposer/autotests/signencrypttest.h
-       messagecomposer/autotests/signjobtest.cpp
-       messagecomposer/autotests/signjobtest.h
-       messagecomposer/autotests/singlepartjobtest.cpp
-       messagecomposer/autotests/singlepartjobtest.h
-       messagecomposer/autotests/skeletonmessagejobtest.cpp
-       messagecomposer/autotests/skeletonmessagejobtest.h
-       messagecomposer/autotests/testcsshelper.h
-       messagecomposer/autotests/testhtmlwriter.h
-       messagecomposer/autotests/utiltest.cpp
-       messagecomposer/autotests/utiltest.h
-       messagecomposer/src/composer/composer.cpp
-       messagecomposer/src/composer/composer.h
-       messagecomposer/src/composer/composerviewbase.cpp
-       messagecomposer/src/composer/composerviewbase.h
-       messagecomposer/src/job/abstractencryptjob.h
-       messagecomposer/src/job/attachmentjob.cpp
-       messagecomposer/src/job/attachmentjob.h
-       messagecomposer/src/job/contentjobbase.cpp
-       messagecomposer/src/job/contentjobbase.h
-       messagecomposer/src/job/contentjobbase_p.h
-       messagecomposer/src/job/encryptjob.cpp
-       messagecomposer/src/job/encryptjob.h
-       messagecomposer/src/job/jobbase.cpp
-       messagecomposer/src/job/jobbase.h
-       messagecomposer/src/job/jobbase_p.h
-       messagecomposer/src/job/maintextjob.cpp
-       messagecomposer/src/job/maintextjob.h
-       messagecomposer/src/job/multipartjob.cpp
-       messagecomposer/src/job/multipartjob.h
-       messagecomposer/src/job/signencryptjob.cpp
-       messagecomposer/src/job/signencryptjob.h
-       messagecomposer/src/job/signjob.cpp
-       messagecomposer/src/job/signjob.h
-       messagecomposer/src/job/singlepartjob.cpp
-       messagecomposer/src/job/singlepartjob.h
-       messagecomposer/src/job/skeletonmessagejob.cpp
-       messagecomposer/src/job/skeletonmessagejob.h
-       messagecomposer/src/job/transparentjob.cpp
-       messagecomposer/src/job/transparentjob.h
-       messagecomposer/src/part/globalpart.cpp
-       messagecomposer/src/part/globalpart.h
-       messagecomposer/src/part/infopart.cpp
-       messagecomposer/src/part/infopart.h
-       messagecomposer/src/part/messagepart.cpp
-       messagecomposer/src/part/messagepart.h
-       messagecomposer/src/part/textpart.cpp
-       messagecomposer/src/part/textpart.h
-       messagecomposer/src/recipient/distributionlistdialog.cpp
-       messagecomposer/src/recipient/distributionlistdialog.h
-       messagecomposer/src/recipient/kwindowpositioner.cpp
-       messagecomposer/src/recipient/kwindowpositioner.h
-       messagecomposer/src/recipient/recipientline.cpp
-       messagecomposer/src/recipient/recipientline.h
-       messagecomposer/src/recipient/recipientseditor.cpp
-       messagecomposer/src/recipient/recipientseditor.h
-       messagecomposer/src/recipient/recipientseditorsidewidget.cpp
-       messagecomposer/src/recipient/recipientseditorsidewidget.h
-       messagecomposer/src/recipient/recipientspicker.cpp
-       messagecomposer/src/recipient/recipientspicker.h
-       messagecomposer/src/utils/util.cpp
-       messagecomposer/src/utils/util.h
-       messagecomposer/tests/testcomposerlineedit.cpp
-       messagecore/autotests/attachmentcompressjobtest.cpp
-       messagecore/autotests/attachmentcompressjobtest.h
-       messagecore/autotests/attachmentfrommimecontentjobtest.cpp
-       messagecore/autotests/attachmentfrommimecontentjobtest.h
-       messagecore/autotests/attachmentfromurljobtest.cpp
-       messagecore/autotests/attachmentfromurljobtest.h
-       messagecore/autotests/attachmentparttest.cpp
-       messagecore/autotests/attachmentparttest.h
-       messagecore/autotests/attachmentpropertiesdialogtest.cpp
-       messagecore/autotests/attachmentpropertiesdialogtest.h
-       messagecore/src/attachment/attachmentcompressjob.cpp
-       messagecore/src/attachment/attachmentcompressjob.h
-       messagecore/src/attachment/attachmentfrommimecontentjob.cpp
-       messagecore/src/attachment/attachmentfrommimecontentjob.h
-       messagecore/src/attachment/attachmentfromurljob.cpp
-       messagecore/src/attachment/attachmentfromurljob.h
-       messagecore/src/attachment/attachmentloadjob.cpp
-       messagecore/src/attachment/attachmentloadjob.h
-       messagecore/src/attachment/attachmentpart.cpp
-       messagecore/src/attachment/attachmentpart.h
-       messagecore/src/attachment/attachmentpropertiesdialog.cpp
-       messagecore/src/attachment/attachmentpropertiesdialog.h
-       messagelist/autotests/itemsizetest.cpp
-       messagelist/src/core/widgets/quicksearchline.cpp
-       messagelist/src/core/widgets/quicksearchline.h
-       messageviewer/autotests/attachmenttest.cpp
-       messageviewer/autotests/converthtmltoplaintexttest.cpp
-       messageviewer/autotests/converthtmltoplaintexttest.h
-       messageviewer/autotests/csshelpertest.cpp
-       messageviewer/autotests/csshelpertest.h
-       messageviewer/autotests/messagedisplayformatattributetest.cpp
-       messageviewer/autotests/messagedisplayformatattributetest.h
-       messageviewer/autotests/rendertest.cpp
-       messageviewer/autotests/setupenv.cpp
-       messageviewer/autotests/setupenv.h
-       messageviewer/autotests/unencryptedmessagetest.cpp
-       messageviewer/autotests/util.cpp
-       messageviewer/autotests/util.h
-       messageviewer/src/findbar/findbarbase.cpp
-       messageviewer/src/findbar/findbarbase.h
-       messageviewer/src/findbar/findbarsourceview.cpp
-       messageviewer/src/findbar/findbarsourceview.h
-       messageviewer/src/findbar/findbarwebengineview.cpp
-       messageviewer/src/findbar/findbarwebengineview.h
-       messageviewer/src/findbar/findbarwebview.cpp
-       messageviewer/src/findbar/findbarwebview.h
-       messageviewer/src/header/contactdisplaymessagememento.cpp
-       messageviewer/src/header/contactdisplaymessagememento.h
-       messageviewer/src/header/kxface.cpp
-       messageviewer/src/header/kxface.h
-       messageviewer/src/htmlwriter/queuehtmlwriter.cpp
-       messageviewer/src/htmlwriter/queuehtmlwriter.h
-       messageviewer/src/scamdetection/autotests/scamattributetest.cpp
-       messageviewer/src/scamdetection/autotests/scamattributetest.h
-       messageviewer/src/utils/markmessagereadhandler.cpp
-       messageviewer/src/utils/markmessagereadhandler.h
-       messageviewer/src/viewer/converthtmltoplaintext.cpp
-       messageviewer/src/viewer/converthtmltoplaintext.h
-       messageviewer/src/viewer/messagedisplayformatattribute.cpp
-       messageviewer/src/viewer/messagedisplayformatattribute.h
-       messageviewer/src/viewer/messagepart.cpp
-       messageviewer/src/viewer/messagepart.h
-       messageviewer/src/viewer/mimeparttree/mimetreemodel.cpp
-       messageviewer/src/viewer/mimeparttree/mimetreemodel.h
-       messageviewer/src/viewer/pluginloader.h
-       messageviewer/src/viewer/pluginloaderbase.cpp
-       messageviewer/src/viewer/pluginloaderbase.h
-       templateparser/src/templatestextedit.cpp
-       templateparser/src/templatestextedit.h
-Copyright: 2010, Casey Link <unnamedrambler@gmail.com>
-           2009, Constantin Berzan <exit3219@gmail.com>
-           2004-2005, Cornelius Schumacher <schumacher@kde.org>
-           2004, Jakob Schröter <js@camaya.net>
-           2010, Klaralvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
-           2009-2010, Klaralvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
-           2010, Klarälvdalens Datakonsult AB
-           2009-2010, Leo Franchi <lfranchi@kde.org>
-           2002-2004, Marc Mutz <mutz@kde.org>
-           1997, Markus Wuebben <markus.wuebben@kde.org>
-           2010-2016, Montel Laurent <montel@kde.org>
-           2015-2016, Sandro Knauß <sknauss@kde.org>
-           2010, Thomas McGuire <thomas.mcguire@kdab.com>
-           2010, Torgny Nyblom <nyblom@kde.org>
-           2007-2015, Volker Krause <vkrause@kde.org>
-License: LGPL-2+
+Files: messagecomposer/autotests/composerviewbasetest.cpp
+       messagecomposer/autotests/composerviewbasetest.h
+       messagecomposer/src/job/attachmentvcardfromaddressbookjob.cpp
+       messagecomposer/src/job/attachmentvcardfromaddressbookjob.h
+       messagecomposer/src/settings/messagecomposersettings.cpp
+       messagecomposer/src/settings/messagecomposersettings.h
+       messagecomposer/src/utils/kleo_util.h
+       messagecore/autotests/attachmentupdatejobtest.cpp
+       messagecore/autotests/attachmentupdatejobtest.h
+       messagecore/autotests/mailinglisttest.cpp
+       messagecore/autotests/mailinglisttest.h
+       messagecore/src/misc/imagecollector.cpp
+       messagecore/src/misc/imagecollector.h
+       messagelist/autotests/quicksearchwarningtest.cpp
+       messagelist/autotests/quicksearchwarningtest.h
+       messagelist/autotests/searchlinestatustest.cpp
+       messagelist/autotests/searchlinestatustest.h
+       messagelist/src/core/widgets/quicksearchwarning.cpp
+       messagelist/src/core/widgets/quicksearchwarning.h
+       messagelist/src/core/widgets/searchlinestatus.cpp
+       messagelist/src/core/widgets/searchlinestatus.h
+       messagelist/src/messagelistutil.cpp
+       messagelist/src/messagelistutil.h
+       messagelist/src/messagelistutil_p.h
+       messageviewer/autotests/mailsourceviewtextbrowserwidgettest.cpp
+       messageviewer/autotests/mailsourceviewtextbrowserwidgettest.h
+       messageviewer/autotests/viewergrantleethemesupporttest.cpp
+       messageviewer/autotests/viewergrantleethemesupporttest.h
+       messageviewer/autotests/viewertest.cpp
+       messageviewer/autotests/viewertest.h
+       messageviewer/autotests/zoomactionmenutest.cpp
+       messageviewer/autotests/zoomactionmenutest.h
+       messageviewer/src/header/headerstrategy.cpp
+       messageviewer/src/header/headerstrategy.h
+       messageviewer/src/header/headerstyle.cpp
+       messageviewer/src/header/headerstyle.h
+       messageviewer/src/header/richheaderstrategy.cpp
+       messageviewer/src/header/richheaderstrategy.h
+       messageviewer/src/htmlwriter/autotests/webengineembedparttest.cpp
+       messageviewer/src/htmlwriter/autotests/webengineembedparttest.h
+       messageviewer/src/htmlwriter/autotests/webengineparthtmlwritertest.cpp
+       messageviewer/src/htmlwriter/autotests/webengineparthtmlwritertest.h
+       messageviewer/src/htmlwriter/teehtmlwriter.cpp
+       messageviewer/src/htmlwriter/teehtmlwriter.h
+       messageviewer/src/htmlwriter/webengineembedpart.cpp
+       messageviewer/src/htmlwriter/webengineembedpart.h
+       messageviewer/src/htmlwriter/webengineparthtmlwriter.cpp
+       messageviewer/src/htmlwriter/webengineparthtmlwriter.h
+       messageviewer/src/interfaces/urlhandler.h
+       messageviewer/src/settings/messageviewersettings.cpp
+       messageviewer/src/settings/messageviewersettings.h
+       messageviewer/src/viewer/csshelper.cpp
+       messageviewer/src/viewer/csshelper.h
+       messageviewer/src/viewer/csshelperbase.cpp
+       messageviewer/src/viewer/csshelperbase.h
+       messageviewer/src/viewer/stl_util.h
+       messageviewer/src/viewer/urlhandlermanager.cpp
+       messageviewer/src/viewer/urlhandlermanager.h
+       messageviewer/src/widgets/htmlstatusbar.cpp
+       messageviewer/src/widgets/htmlstatusbar.h
+       messageviewer/src/widgets/mailsourceviewtextbrowserwidget.cpp
+       messageviewer/src/widgets/mailsourceviewtextbrowserwidget.h
+       messageviewer/src/widgets/printingsettings.cpp
+       messageviewer/src/widgets/printingsettings.h
+       mimetreeparser/autotests/testcsshelper.cpp
+       mimetreeparser/autotests/testcsshelper.h
+       mimetreeparser/src/htmlwriter/filehtmlwriter.cpp
+       mimetreeparser/src/htmlwriter/filehtmlwriter.h
+       mimetreeparser/src/viewer/attachmentstrategy.cpp
+       mimetreeparser/src/viewer/attachmentstrategy.h
+       mimetreeparser/src/viewer/bodypartformatter.cpp
+       mimetreeparser/src/viewer/memento/*
+       mimetreeparser/src/viewer/objecttreeparser.cpp
+       mimetreeparser/src/viewer/objecttreeparser.h
+       mimetreeparser/src/viewer/partmetadata.h
+       templateparser/autotests/customtemplatesmenutest.cpp
+       templateparser/autotests/customtemplatesmenutest.h
+       templateparser/src/templatessyntaxhighlighterrules.cpp
+       templateparser/src/templatessyntaxhighlighterrules.h
+       templateparser/src/templatestexteditor.cpp
+       templateparser/src/templatestexteditor.h
+       templateparser/src/templatesutil.cpp
+       templateparser/src/templatesutil.h
+       templateparser/src/templatesutil_p.h
+       templateparser/tests/templateconfigurewidget_gui.cpp
+       templateparser/tests/templateconfigurewidget_gui.h
+       templateparser/tests/templateeditor_gui.cpp
+       templateparser/tests/templateeditor_gui.h
+       templateparser/tests/templateparseremailrequester.cpp
+       templateparser/tests/templateparseremailrequester.h
+       webengineviewer/src/data/*
+Copyright: 2011, AUTHORS.txt (http://jqueryui.com/about)
+           2009, Andras Mantia <andras@kdab.net>
+           2002-2003, Carsten Pfeiffer <pfeiffer@kde.org>
+           2005, David Faure <faure@kde.org>
+           2002, Ingo Kloecker <kloecker@kde.org>
+           2002-2003, Karl-Heinz Zimmer <khz@kde.org>
+           2002-2009, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
+           2003-2004, Marc Mutz <mutz@kde.org>
+           2011-2017, Montel Laurent <montel@kde.org>
+           2013, Sandro Knauß <bugs@sandroknauss.de>
+           2015, Sandro Knauß <sknauss@kde.org>
+           2011, Torgny Nyblom <nyblom@kde.org>
+           2003, Zack Rusin <zack@kde.org>
+License: GPL-2
 
 Files: messagecomposer/src/job/attachmentfrompublickeyjob.cpp
        messagecomposer/src/job/attachmentfrompublickeyjob.h
        messagecore/autotests/stringutiltest.h
-       messagecore/src/utils/stringutil.cpp
-       messagecore/src/utils/stringutil.h
+       messagecore/src/utils/*
        messagelist/src/utils/aggregationcombobox.cpp
        messagelist/src/utils/aggregationcombobox.h
        messagelist/src/utils/aggregationcombobox_p.h
@@ -391,76 +355,42 @@ Files: messagecomposer/src/job/attachmentfrompublickeyjob.cpp
        messagelist/src/utils/themecombobox_p.h
        messagelist/src/utils/themeconfigbutton.cpp
        messagelist/src/utils/themeconfigbutton.h
-       messageviewer/autotests/cryptohelpertest.cpp
-       messageviewer/autotests/cryptohelpertest.h
-       messageviewer/autotests/nodehelpertest.cpp
-       messageviewer/autotests/nodehelpertest.h
-       messageviewer/autotests/objecttreeparsertest.cpp
-       messageviewer/autotests/objecttreeparsertest.h
-       messageviewer/src/adblock/adblockelementhiding.cpp
-       messageviewer/src/adblock/adblockelementhiding.h
-       messageviewer/src/adblock/adblockmanager.cpp
-       messageviewer/src/adblock/adblockmanager.h
-       messageviewer/src/adblock/adblockrulefallbackimpl.cpp
-       messageviewer/src/adblock/adblockrulefallbackimpl.h
-       messageviewer/src/adblock/adblockruleimpl.h
-       messageviewer/src/adblock/common/adblocksettingwidget.cpp
-       messageviewer/src/adblock/common/adblocksettingwidget.h
-       messageviewer/src/adblock/common/matcher/adblockhostmatcher.cpp
-       messageviewer/src/adblock/common/matcher/adblockhostmatcher.h
-       messageviewer/src/adblock/common/matcher/adblockrule.cpp
-       messageviewer/src/adblock/common/matcher/adblockrule.h
-       messageviewer/src/adblock/common/matcher/adblockrulenullimpl.cpp
-       messageviewer/src/adblock/common/matcher/adblockrulenullimpl.h
-       messageviewer/src/adblock/common/matcher/adblockruletextmatchimpl.cpp
-       messageviewer/src/adblock/common/matcher/adblockruletextmatchimpl.h
-       messageviewer/src/viewer/webview/mailwebview.cpp
-       messageviewer/src/viewer/webview/mailwebview.h
+       messageviewer/src/messagepartthemes/default/autotests/objecttreeparsertest.cpp
+       messageviewer/src/messagepartthemes/default/autotests/objecttreeparsertest.h
+       messageviewer/src/messagepartthemes/default/autotests/quotehtmltest.cpp
+       messageviewer/src/messagepartthemes/default/autotests/quotehtmltest.h
        messageviewer/tests/viewertest_gui.cpp
-       templateparser/autotests/templateparsertest.cpp
-       templateparser/autotests/templateparsertest.h
-Copyright: 2010-2013, Andrea Diamantini <adjam7@gmail.com>
-           2009, Benjamin C. Meyer <ben@meyerhome.net>
-           2010-2011, Benjamin Poulain <ikipou@gmail.com>
-           2009, Constantin Berzan <exit3219@gmail.com>
+       mimetreeparser/autotests/cryptohelpertest.cpp
+       mimetreeparser/autotests/cryptohelpertest.h
+       mimetreeparser/autotests/nodehelpertest.cpp
+       mimetreeparser/autotests/nodehelpertest.h
+Copyright: 2009, Constantin Berzan <exit3219@gmail.com>
            2010, David Faure <faure@kde.org>
            2009, James Bendig <james@imptalk.com>
-           2013-2016, Laurent Montel <monte@kde.org>
-           2013-2016, Montel Laurent <montel@kde.org>
-           2013, Paul Rohrbach <p.b.r@gmx.net>
+           2016-2017, Laurent Montel <montel@kde.org>
            2015, Sandro Knauß <bugs@sandroknauss.de>
            2015, Sandro Knauß <knauss@kolabsys.com>
-           2011, Sudhendu Kumar <sudhendu.kumar.roy@gmail.com>
-           2009-2010, Thomas McGuire <mcguire@kde.org>
-           2009, Zsombor Gegesy <gzsombor@gmail.com>
+           2016, Sandro Knauß <sknauss@kde.org>
+           2009, Thomas McGuire <mcguire@kde.org>
 License: GPL-2+3+KDEeV
- This program is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public License as
- published by the Free Software Foundation; either version 2 of
- the License or (at your option) version 3 or any later version
- accepted by the membership of KDE e.V. (or its successor approved
- by the membership of KDE e.V.), which shall act as a proxy
- defined in Section 14 of version 3 of the license.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- The complete text of the GNU General Public License version 2 can be found in
- `/usr/share/common-licenses/GPL-2', likewise, the complete text of the GNU
- General Public License version 3 can be found in
- `/usr/share/common-licenses/GPL-3'.
 
-Files: messagecomposer/src/job/inserttextfilejob.cpp
+Files: po/ca/libmessagecomposer.po
+       po/ca/libmessagecore.po
+       po/ca/libtemplateparser.po
+       po/ca@valencia/libmessagecomposer.po
+       po/ca@valencia/libmessagecore.po
+       po/ca@valencia/libtemplateparser.po
+       po/uk/*
+Copyright: 2009-2017, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
+
+Files: COPYING.LIB
+       messagecomposer/src/job/inserttextfilejob.cpp
        messagecomposer/src/job/inserttextfilejob.h
        messagecore/src/messagecoreutil.cpp
        messagecore/src/messagecoreutil.h
-       messageviewer/src/viewer/webview/networkaccessmanager.cpp
-       messageviewer/src/viewer/webview/networkaccessmanager.h
 Copyright: 2015, Daniel Vrátil <dvratil@kde.org>
-           2009, Dawit Alemayehu <adawit@kde.org>
-           2013-2016, Montel Laurent <montel@kde.org>
+           1991-1999, Free Software Foundation, Inc
            2010, Thomas McGuire <mcguire@kde.org>
 License: LGPL-2.1+
 
@@ -471,21 +401,23 @@ Files: messagecore/autotests/stringutiltest.cpp
        messageviewer/src/utils/iconnamecache.h
 Copyright: 2009-2010, Thomas McGuire <mcguire@kde.org>
 License: LGPL-2+3+KDEeV
- This library is free software; you can redistribute it and/or modify
- it under the terms of the GNU Library General Public License as published
- by the Free Software Foundation; either version 2 of the License or
- ( at your option ) version 3 or, at the discretion of KDE e.V.
- ( which shall act as a proxy as in section 14 of the GPLv3 ), any later version.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- The complete text of the GNU Library General Public License version 2 can be
- found in `/usr/share/common-licenses/LGPL-2', likewise, the complete text of
- the GNU Lesser General Public License version 3 can be found in
- `/usr/share/common-licenses/LGPL-3'.
+
+Files: cmake/*
+Copyright: 2006, Alexander Neundorf <neundorf@kde.org>
+           2013, Sandro Knauß <mail@sandroknauss.de>
+License: BSD-3-clause
+
+Files: webengineviewer/src/data/jquery.js
+       webengineviewer/src/data/jquery.min.js
+Copyright: 2009, John Resig
+           2009, The Dojo Foundation
+License: MIT_and_GPL
+
+License: MIT_and_GPL
+ Dual licensed under the MIT and GPL licenses.
+ --
+ The complete text of the GNU General Public License
+ can be found in `/usr/share/common-licenses/GPL'.
 
 Files: messagecomposer/autotests/qtest_messagecomposer.h
        messagecore/autotests/qtest_messagecore.h
@@ -493,26 +425,22 @@ Copyright: 2009, Constantin Berzan <exit3219@gmail.com>
            2009, Volker Krause <vkrause@kde.org>
 License: LGPL-2
 
-Files: cmake/modules/kdepim_add_gpg_crypto_test.cmake
-       cmake/modules/kdepim_generate_crypto_test_wrapper.cmake
-Copyright: 2006, Alexander Neundorf <neundorf@kde.org>
-           2013, Sandro Knauß <mail@sandroknauss.de>
-License: BSD-3-clause
-
-Files: messageviewer/src/webengine/webhittestresult.cpp
-       messageviewer/src/webengine/webhittestresult.h
+Files: webengineviewer/src/webhittestresult.cpp
+       webengineviewer/src/webhittestresult.h
 Copyright: 2015, David Rosca <nowrep@gmail.com>
-           2016, Montel Laurent <montel@kde.org>
-License: GPL-2_and_GPL-3+
- This program is free software; you can redistribute it and/or modify it
- under the terms of the GNU General Public License, version 2, as
- published by the Free Software Foundation.
+           2016-2017, Laurent Montel <montel@kde.org>
+License: GPL-3+_LGPL-2+
+
+License: GPL-3+_LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
  .
- This program is distributed in the hope that it will be useful, but
- WITHOUT ANY WARRANTY; without even the implied warranty of
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- General Public License for more details.
- .
+ Library General Public License for more details.
  --
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -523,17 +451,46 @@ License: GPL-2_and_GPL-3+
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
- .
  --
- The complete text of the GNU General Public License version 2 can be found in
- `/usr/share/common-licenses/GPL-2', likewise, the complete text of the GNU
- General Public License version 3 can be found in
- `/usr/share/common-licenses/GPL-3'.
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2', likewise,
+ The complete text of the GNU General Public License version 3
+ can be found in `/usr/share/common-licenses/GPL-3'.
 
 Files: messageviewer/src/widgets/invitationsettings.cpp
        messageviewer/src/widgets/invitationsettings.h
-Copyright: no copyright claimed
-License: BSL-1.0
+License: BSL-1
+
+Files: messageviewer/src/messagepartthemes/default/autotests/rendertest.h
+Copyright: 2016, Sandro Knauß <sknauss@kde.org>
+           2010, Volker Krause <vkrause@kde.org>
+License: GPL-2+KDEeV
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSL-1
  Permission is hereby granted, free of charge, to any person or organization
  obtaining a copy of the software and accompanying documentation covered by
  this license (the "Software") to use, reproduce, display, distribute,
@@ -556,32 +513,6 @@ License: BSL-1.0
  ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
  DEALINGS IN THE SOFTWARE.
 
-Files: messageviewer/autotests/rendertest.h
-Copyright: 2010, Volker Krause <vkrause@kde.org>
-           2016, sandro Knauß <sknauss@kde.org>
-License: GPL-2+KDEeV
- This program is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public License as
- published by the Free Software Foundation; either version 2 of
- the License or (at your option) any later version
- accepted by the membership of KDE e.V. (or its successor approved
- by the membership of KDE e.V.), which shall act as a proxy
- defined in Section 14 of version 3 of the license.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- The complete text of the GNU General Public License version 2 can be found in
- `/usr/share/common-licenses/GPL-2', likewise, the complete text of the GNU
- General Public License version 3 can be found in
- `/usr/share/common-licenses/GPL-3'.
-
-Files: debian/*
-Copyright: 2016, Maximiliano Curia <maxy@debian.org>
-License: LGPL-2+
-
 License: GPL-2
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -602,6 +533,42 @@ License: GPL-2+
  (at your option) any later version.
  .
  This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2', likewise,
+ the complete text of the GNU General Public License version 3
+ can be found in `/usr/share/common-licenses/GPL-3'.
+
+License: GPL-2+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
@@ -636,6 +603,23 @@ License: LGPL-2+
  The complete text of the GNU Library General Public License version 2
  can be found in `/usr/share/common-licenses/LGPL-2'.
 
+License: LGPL-2+3+KDEeV
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License as published
+ by the Free Software Foundation; either version 2 of the License or
+ ( at your option ) version 3 or, at the discretion of KDE e.V.
+ ( which shall act as a proxy as in section 14 of the GPLv3 ), any later version
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2', likewise,
+ the complete text of the GNU Lesser General Public License version 3
+ can be found in `/usr/share/common-licenses/LGPL-3'.
+
 License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -650,26 +634,15 @@ License: LGPL-2.1+
  The complete text of the GNU Lesser General Public License version 2.1
  can be found in `/usr/share/common-licenses/LGPL-2.1'.
 
-License: BSD-3-clause
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
+License: LGPL-2.1+3+KDEeV
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
  .
- 1. Redistributions of source code must retain the copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products
-    derived from this software without specific prior written permission.
- .
- THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
- IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
- INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
- NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ The complete text of the GNU Lesser General Public License version 2.1
+ can be found in `/usr/share/common-licenses/LGPL-2.1', likewise,
+ the complete text of the GNU Lesser General Public License version 3
+ can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files: debian/*
+Copyright: 2016, Maximiliano Curia <maxy@debian.org>
+License: LGPL-2+
