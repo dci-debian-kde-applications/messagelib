@@ -9,3 +9,4 @@ usr/share/libmessageviewer/
 usr/share/locale/
 usr/share/messagelist/
 usr/share/messageviewer/
+usr/share/org.kde.syntax-highlighting/syntax/kmail-template.xml
