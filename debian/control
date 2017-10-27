@@ -94,6 +94,7 @@ Depends: libkf5identitymanagement-dev (>= 5.2.40~),
          libkf5messagecomposer5 (= ${binary:Version}),
          libkf5messagecore-dev,
          libkf5mime-dev,
+         libkf5pimcommon-dev,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE PIM messaging library, composer devel files
