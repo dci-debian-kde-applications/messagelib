@@ -69,15 +69,11 @@ Package: kf5-messagelib-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
-Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
-        kde-l10n-eo (<< 4:17.03.90-0~),
-        kdepim-addons (<< 16.12.0),
+Breaks: kdepim-addons (<< 16.12.0),
         libkf5messagelist5 (<= 4:16.04),
         libkf5messageviewer5 (<= 4:16.04),
         ${kde-l10n:all},
-Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
-          kde-l10n-eo (<< 4:17.03.90-0~),
-          kdepim-addons (<< 16.12.0),
+Replaces: kdepim-addons (<< 16.12.0),
           libkf5messagelist5 (<= 4:16.04),
           libkf5messageviewer5 (<= 4:16.04),
           ${kde-l10n:all},
