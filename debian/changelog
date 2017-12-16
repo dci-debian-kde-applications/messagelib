@@ -1,3 +1,10 @@
+kf5-messagelib (4:17.08.3-1) UNRELEASED; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (17.08.3).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Dec 2017 12:03:55 +0100
+
 kf5-messagelib (4:17.08.0-1) experimental; urgency=medium
 
   * New upstream release (17.08.0)
