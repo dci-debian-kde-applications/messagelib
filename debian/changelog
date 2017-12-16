@@ -2,6 +2,7 @@ kf5-messagelib (4:17.08.3-1) UNRELEASED; urgency=medium
 
   [ Sandro Knauß ]
   * New upstream release (17.08.3).
+  * Bump Standards-Version to 4.1.2 (No changes needed).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Dec 2017 12:03:55 +0100
 
