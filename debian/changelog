@@ -4,6 +4,7 @@ kf5-messagelib (4:17.08.3-2) UNRELEASED; urgency=medium
   * Stop using dh_linktree, as it is not really used:
     - remove the dh-linktree build dependency
     - stop using the linktree dh addon
+  * Simplify watch file, and switch it to https.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Dec 2017 15:46:54 +0100
 
