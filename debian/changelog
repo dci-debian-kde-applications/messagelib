@@ -5,6 +5,8 @@ kf5-messagelib (4:17.08.3-2) UNRELEASED; urgency=medium
     - remove the dh-linktree build dependency
     - stop using the linktree dh addon
   * Simplify watch file, and switch it to https.
+  * Migrate from dh to dhmk
+    - bump the pkg-kde-tools build dependency to >= 0.15.15
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Dec 2017 15:46:54 +0100
 
