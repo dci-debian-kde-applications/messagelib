@@ -1,3 +1,9 @@
+kf5-messagelib (4:17.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 10 Jan 2018 18:42:03 +0000
+
 kf5-messagelib (4:17.12.0-0neon) xenial; urgency=medium
 
   * New release
