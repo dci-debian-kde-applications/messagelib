@@ -17,6 +17,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5codecs-dev (>= 5.19.0~),
                libkf5completion-dev (>= 5.19.0~),
                libkf5config-dev (>= 5.19.0~),
+               libkf5contacteditor-dev (>= 17.04.0~),
                libkf5contacts-dev (>= 5.2.0~),
                libkf5followupreminder-dev (>= 5.2.0~),
                libkf5grantleetheme-dev (>= 5.2.0~),
@@ -91,7 +92,9 @@ Multi-Arch: same
 Depends: libkf5identitymanagement-dev (>= 5.2.40~),
          libkf5libkleo-dev (>= 5.2.0~),
          libkf5messagecomposer5 (= ${binary:Version}),
+         libkf5messagecore-dev,
          libkf5mime-dev,
+         libkf5pimcommon-dev,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE PIM messaging library, composer devel files
@@ -145,6 +148,7 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libkf5akonadi-dev,
+         libkf5akonadimime-dev,
          libkf5messagelist5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -173,7 +177,8 @@ Package: libkf5messageviewer-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5messageviewer5 (= ${binary:Version}),
+Depends: libkf5messagecore-dev,
+         libkf5messageviewer5 (= ${binary:Version}),
          libkf5pimcommon-dev,
          ${misc:Depends},
          ${shlibs:Depends}
